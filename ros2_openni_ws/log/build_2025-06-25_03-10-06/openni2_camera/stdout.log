@@ -1,0 +1,291 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found camera_info_manager: 5.1.6 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found image_transport: 5.1.6 (/opt/ros/jazzy/share/image_transport/cmake)
+-- Found rclcpp_components: 28.1.9 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Checking for module 'libopenni2'
+--   Found libopenni2, version 2.2.0.3
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (6.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ubuntu/ros2_openni_ws/build/openni2_camera
+[  1%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_convert.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_device.cpp.o[0m
+[  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  7%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_device_info.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_device_manager.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_frame_listener.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_video_mode.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/openni2_camera_driver.dir/rclcpp_components/node_main_openni2_camera_driver.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_timer_filter.cpp.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/usb_reset.dir/src/usb_reset.c.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_exception.cpp.o[0m
+[ 20%] Built target ament_cmake_python_copy_openni2_camera
+[ 22%] [32m[1mLinking C executable usb_reset[0m
+[ 22%] Built target usb_reset
+[ 22%] Built target openni2_camera__rosidl_generator_type_description
+[ 24%] [34m[1mGenerating C code for ROS interfaces[0m
+[ 26%] [34m[1mGenerating C++ code for ROS interfaces[0m
+running egg_info
+creating openni2_camera.egg-info
+writing openni2_camera.egg-info/PKG-INFO
+writing dependency_links to openni2_camera.egg-info/dependency_links.txt
+writing top-level names to openni2_camera.egg-info/top_level.txt
+writing manifest file 'openni2_camera.egg-info/SOURCES.txt'
+reading manifest file 'openni2_camera.egg-info/SOURCES.txt'
+writing manifest file 'openni2_camera.egg-info/SOURCES.txt'
+[ 26%] Built target ament_cmake_python_build_openni2_camera_egg
+[ 26%] Built target openni2_camera__cpp
+[ 30%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_generator_c.dir/rosidl_generator_c/openni2_camera/srv/detail/get_serial__functions.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_generator_c.dir/rosidl_generator_c/openni2_camera/srv/detail/get_serial__type_support.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_generator_c.dir/rosidl_generator_c/openni2_camera/srv/detail/get_serial__description.c.o[0m
+[ 33%] [32m[1mLinking C shared library libopenni2_camera__rosidl_generator_c.so[0m
+[ 33%] Built target openni2_camera__rosidl_generator_c
+[ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 37%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 39%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 41%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 43%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 45%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/openni2_camera__rosidl_typesupport_c.dir/rosidl_typesupport_c/openni2_camera/srv/get_serial__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/openni2_camera__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/openni2_camera/srv/get_serial__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/openni2_camera__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/openni2_camera/srv/detail/get_serial__type_support.cpp.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/openni2_camera/srv/detail/get_serial__type_support.c.o[0m
+[ 54%] [32m[1mLinking CXX shared library libopenni2_camera__rosidl_typesupport_c.so[0m
+[ 56%] [32m[1mLinking C shared library libopenni2_camera__rosidl_typesupport_introspection_c.so[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/openni2_camera__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/openni2_camera/srv/detail/get_serial__type_support_c.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/openni2_camera__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/openni2_camera/srv/detail/dds_fastrtps/get_serial__type_support.cpp.o[0m
+[ 60%] Built target openni2_camera__rosidl_typesupport_c
+[ 60%] Built target openni2_camera__rosidl_typesupport_introspection_c
+[ 62%] [32m[1mLinking CXX shared library libopenni2_camera__rosidl_typesupport_cpp.so[0m
+[ 64%] [32m[1mLinking CXX shared library libopenni2_camera__rosidl_typesupport_introspection_cpp.so[0m
+[ 66%] [32m[1mLinking CXX shared library libopenni2_camera__rosidl_typesupport_fastrtps_c.so[0m
+[ 66%] Built target openni2_camera__rosidl_typesupport_cpp
+[ 66%] Built target openni2_camera__rosidl_typesupport_introspection_cpp
+[ 67%] [32m[1mLinking CXX shared library libopenni2_camera__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 67%] Built target openni2_camera__rosidl_typesupport_fastrtps_c
+[ 67%] Built target openni2_camera__rosidl_typesupport_fastrtps_cpp
+[ 67%] Built target openni2_camera
+[ 69%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 69%] Built target openni2_camera__py
+[ 71%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_generator_py.dir/rosidl_generator_py/openni2_camera/srv/_get_serial_s.c.o[0m
+[ 73%] [32m[1mLinking C shared library libopenni2_camera__rosidl_generator_py.so[0m
+[ 73%] Built target openni2_camera__rosidl_generator_py
+[ 77%] [32mBuilding C object CMakeFiles/openni2_camera_s__rosidl_typesupport_c.dir/rosidl_generator_py/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_c.c.o[0m
+[ 77%] [32mBuilding C object CMakeFiles/openni2_camera_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/openni2_camera_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 81%] [32m[1mLinking C shared module rosidl_generator_py/openni2_camera/openni2_camera_s__rosidl_typesupport_introspection_c.so[0m
+[ 83%] [32m[1mLinking C shared module rosidl_generator_py/openni2_camera/openni2_camera_s__rosidl_typesupport_c.so[0m
+[ 84%] [32m[1mLinking C shared module rosidl_generator_py/openni2_camera/openni2_camera_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 84%] Built target openni2_camera_s__rosidl_typesupport_c
+[ 84%] Built target openni2_camera_s__rosidl_typesupport_introspection_c
+[ 84%] Built target openni2_camera_s__rosidl_typesupport_fastrtps_c
+[ 86%] [32m[1mLinking CXX executable openni2_camera_driver[0m
+[ 86%] Built target openni2_camera_driver
+[ 88%] [32m[1mLinking CXX shared library libopenni2_wrapper.so[0m
+[ 88%] Built target openni2_wrapper
+[ 94%] [32mBuilding CXX object CMakeFiles/openni2_camera_lib.dir/src/openni2_driver.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/list_devices.dir/src/list_devices.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/test_wrapper.dir/test/test_wrapper.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable list_devices[0m
+[ 98%] [32m[1mLinking CXX executable test_wrapper[0m
+[ 98%] Built target list_devices
+[ 98%] Built target test_wrapper
+[100%] [32m[1mLinking CXX shared library libopenni2_camera_lib.so[0m
+[100%] Built target openni2_camera_lib
+-- Install configuration: ""
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/ament_index/resource_index/rosidl_interfaces/openni2_camera
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/srv/GetSerial.json
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/get_serial.h
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__description.c
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__type_support.c
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__type_support.h
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__struct.h
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__functions.c
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__functions.h
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/environment/library_path.sh
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/environment/library_path.dsv
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/get_serial.hpp
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__traits.hpp
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__struct.hpp
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__builder.hpp
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__type_support.hpp
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/dds_fastrtps
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__type_support.c
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__type_support.cpp
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/environment/pythonpath.sh
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/environment/pythonpath.dsv
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera-2.3.0-py3.12.egg-info
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera-2.3.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera-2.3.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera-2.3.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera-2.3.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_c.so
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv/_get_serial_s.c
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv/_get_serial.py
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv/__init__.py
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/__init__.py
+Listing '/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera'...
+Compiling '/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/__init__.py'...
+Listing '/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv'...
+Compiling '/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv/__init__.py'...
+Compiling '/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv/_get_serial.py'...
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_generator_py.so" to ""
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/srv/GetSerial.idl
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/srv/GetSerial.srv
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/openni2_camera/openni2_camera_driver
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/openni2_camera/openni2_camera_driver" to ""
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/openni2_camera/list_devices
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/openni2_camera/list_devices" to ""
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_camera_lib.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_camera_lib.so" to ""
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_wrapper.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/libopenni2_wrapper.so" to ""
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/lib/openni2_camera/usb_reset
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include
+-- Up-to-date: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_timer_filter.h
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_frame_listener.h
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_device_info.h
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_driver.h
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_device_manager.h
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_convert.h
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_exception.h
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_video_mode.h
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/include/openni2_camera/openni2_device.h
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera//launch
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera//launch/tfs.launch.py
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera//launch/camera_with_cloud_norgb.launch.py
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera//launch/camera_with_cloud.launch.py
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera//launch/camera_only.launch.py
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/ament_index/resource_index/package_run_dependencies/openni2_camera
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/ament_index/resource_index/parent_prefix_path/openni2_camera
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/environment/path.sh
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/environment/path.dsv
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/local_setup.bash
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/local_setup.sh
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/local_setup.zsh
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/local_setup.dsv
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/package.dsv
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/ament_index/resource_index/packages/openni2_camera
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_cExport.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_cppExport.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_cExport.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_pyExport.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/ament_index/resource_index/rclcpp_components/openni2_camera
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_cameraConfig.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_cameraConfig-version.cmake
+-- Installing: /home/ubuntu/ros2_openni_ws/install/openni2_camera/share/openni2_camera/package.xml

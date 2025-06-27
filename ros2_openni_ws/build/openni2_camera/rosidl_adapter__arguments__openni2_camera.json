@@ -1,0 +1,6 @@
+{
+  "package_name": "openni2_camera",
+  "non_idl_tuples": [
+    "/home/ubuntu/ros2_openni_ws/src/openni2_camera:srv/GetSerial.srv"
+  ]
+}

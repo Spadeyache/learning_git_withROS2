@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "openni2_camera__py",
+		"source" : "/home/ubuntu/ros2_openni_ws/build/openni2_camera/openni2_camera__py"
+	}
+}
