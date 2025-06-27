@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/robovision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robovision_interfaces/msg/detail/object_centroid__type_support_c.cpp.o"
+  "CMakeFiles/robovision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robovision_interfaces/msg/detail/object_centroid__type_support_c.cpp.o.d"
+  "CMakeFiles/robovision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robovision_interfaces/msg/detail/object_centroids__type_support_c.cpp.o"
+  "CMakeFiles/robovision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robovision_interfaces/msg/detail/object_centroids__type_support_c.cpp.o.d"
+  "CMakeFiles/robovision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robovision_interfaces/srv/detail/get_point_center__type_support_c.cpp.o"
+  "CMakeFiles/robovision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robovision_interfaces/srv/detail/get_point_center__type_support_c.cpp.o.d"
+  "librobovision_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "librobovision_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/robovision_interfaces/msg/detail/object_centroid__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/robovision_interfaces/msg/detail/object_centroid__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/robovision_interfaces/msg/detail/object_centroids__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/robovision_interfaces/msg/detail/object_centroids__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/robovision_interfaces/srv/detail/get_point_center__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/robovision_interfaces/srv/detail/get_point_center__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/robovision_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

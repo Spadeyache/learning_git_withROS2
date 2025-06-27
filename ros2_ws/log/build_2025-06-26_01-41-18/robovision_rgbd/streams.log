@@ -1,0 +1,49 @@
+[0.012s] Invoking command in '/home/ubuntu/ros2_ws/build/robovision_rgbd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_rgbd -- -j16 -l16
+[0.059s] [ 25%] Built target rgbd_reader
+[0.060s] [ 25%] Built target ament_cmake_python_copy_robovision_rgbd
+[0.061s] [ 50%] Built target rgbd_reader_faceRecog_tracking2
+[0.062s] [ 62%] [32mBuilding CXX object CMakeFiles/rgbd_reader_faceRecog_tracking.dir/src/rgbd_reader_faceRecog_tracking.cpp.o[0m
+[0.063s] [ 87%] Built target rgbd_reader_faceRecog2
+[0.222s] running egg_info
+[0.232s] writing robovision_rgbd.egg-info/PKG-INFO
+[0.232s] writing dependency_links to robovision_rgbd.egg-info/dependency_links.txt
+[0.232s] writing top-level names to robovision_rgbd.egg-info/top_level.txt
+[0.265s] reading manifest file 'robovision_rgbd.egg-info/SOURCES.txt'
+[0.265s] writing manifest file 'robovision_rgbd.egg-info/SOURCES.txt'
+[0.289s] [ 87%] Built target ament_cmake_python_build_robovision_rgbd_egg
+[8.280s] [100%] [32m[1mLinking CXX executable rgbd_reader_faceRecog_tracking[0m
+[8.873s] [100%] Built target rgbd_reader_faceRecog_tracking
+[8.881s] Invoked command in '/home/ubuntu/ros2_ws/build/robovision_rgbd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_rgbd -- -j16 -l16
+[8.882s] Invoking command in '/home/ubuntu/ros2_ws/build/robovision_rgbd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_rgbd
+[8.887s] -- Install configuration: ""
+[8.887s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/environment/pythonpath.sh
+[8.887s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/environment/pythonpath.dsv
+[8.887s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd-0.0.0-py3.12.egg-info
+[8.887s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd-0.0.0-py3.12.egg-info/top_level.txt
+[8.887s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd-0.0.0-py3.12.egg-info/dependency_links.txt
+[8.887s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd-0.0.0-py3.12.egg-info/PKG-INFO
+[8.887s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd-0.0.0-py3.12.egg-info/SOURCES.txt
+[8.887s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd
+[8.887s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd/__init__.py
+[8.910s] Listing '/home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd'...
+[8.913s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/robovision_rgbd/rgbd_reader
+[8.914s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/robovision_rgbd/rgbd_reader_faceRecog2
+[8.914s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/robovision_rgbd/rgbd_reader_faceRecog_tracking
+[8.919s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_ws/install/robovision_rgbd/lib/robovision_rgbd/rgbd_reader_faceRecog_tracking" to ""
+[8.919s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/robovision_rgbd/rgbd_reader.py
+[8.919s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/ament_index/resource_index/package_run_dependencies/robovision_rgbd
+[8.919s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/ament_index/resource_index/parent_prefix_path/robovision_rgbd
+[8.919s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/environment/ament_prefix_path.sh
+[8.919s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/environment/ament_prefix_path.dsv
+[8.919s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/environment/path.sh
+[8.919s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/environment/path.dsv
+[8.919s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/local_setup.bash
+[8.919s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/local_setup.sh
+[8.919s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/local_setup.zsh
+[8.919s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/local_setup.dsv
+[8.919s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/package.dsv
+[8.920s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/ament_index/resource_index/packages/robovision_rgbd
+[8.920s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/cmake/robovision_rgbdConfig.cmake
+[8.920s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/cmake/robovision_rgbdConfig-version.cmake
+[8.920s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/package.xml
+[8.921s] Invoked command in '/home/ubuntu/ros2_ws/build/robovision_rgbd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_rgbd

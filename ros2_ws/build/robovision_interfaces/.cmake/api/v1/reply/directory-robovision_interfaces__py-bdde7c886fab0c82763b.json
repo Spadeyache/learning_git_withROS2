@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robovision_interfaces__py",
+		"source" : "/home/ubuntu/ros2_ws/build/robovision_interfaces/robovision_interfaces__py"
+	}
+}

@@ -1,0 +1,40 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/rgbd_reader.dir/src/rgbd_reader.cpp.o[0m
+[ 50%] Built target ament_cmake_python_copy_robovision_rgbd
+running egg_info
+writing robovision_rgbd.egg-info/PKG-INFO
+writing dependency_links to robovision_rgbd.egg-info/dependency_links.txt
+writing top-level names to robovision_rgbd.egg-info/top_level.txt
+reading manifest file 'robovision_rgbd.egg-info/SOURCES.txt'
+writing manifest file 'robovision_rgbd.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_robovision_rgbd_egg
+[100%] [32m[1mLinking CXX executable rgbd_reader[0m
+[100%] Built target rgbd_reader
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/environment/pythonpath.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/environment/pythonpath.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd-0.0.0-py3.12.egg-info
+-- Installing: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd/__init__.py
+Listing '/home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd'...
+-- Installing: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/robovision_rgbd/rgbd_reader
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_ws/install/robovision_rgbd/lib/robovision_rgbd/rgbd_reader" to ""
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/robovision_rgbd/rgbd_reader.py
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/ament_index/resource_index/package_run_dependencies/robovision_rgbd
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/ament_index/resource_index/parent_prefix_path/robovision_rgbd
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/environment/path.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/environment/path.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/local_setup.bash
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/local_setup.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/local_setup.zsh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/local_setup.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/package.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/ament_index/resource_index/packages/robovision_rgbd
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/cmake/robovision_rgbdConfig.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/cmake/robovision_rgbdConfig-version.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/package.xml

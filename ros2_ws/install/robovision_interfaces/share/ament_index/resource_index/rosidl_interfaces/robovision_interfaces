@@ -1,0 +1,6 @@
+msg/ObjectCentroid.idl
+msg/ObjectCentroid.msg
+msg/ObjectCentroids.idl
+msg/ObjectCentroids.msg
+srv/GetPointCenter.idl
+srv/GetPointCenter.srv

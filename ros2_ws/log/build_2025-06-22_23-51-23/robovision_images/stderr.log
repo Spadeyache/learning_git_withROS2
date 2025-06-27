@@ -1,0 +1,23 @@
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1/src/my_scaled_subscriber.cpp:[m[K In constructor ‘[01m[KImageSubscriberNode::[01;32m[KImageSubscriberNode[m[K()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1/src/my_scaled_subscriber.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kscaled_image_subscriber_[m[K’ was not declared in this scope; did you mean ‘[01m[Kimage_subscriber_[m[K’?
+   17 |         [01;31m[Kscaled_image_subscriber_[m[K = create_subscription<sensor_msgs::msg::Image>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kimage_subscriber_[m[K
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1/src/my_scaled_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriberNode::[01;32m[Kcallback_scaled_image[m[K(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1/src/my_scaled_subscriber.cpp:45:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kscaled_image[m[K’ was not declared in this scope
+   45 |         cv::resize(image_, [01;31m[Kscaled_image[m[K, cv::Size(), 0.5, 0.5, CV_INTER_AREA);
+      |                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1/src/my_scaled_subscriber.cpp:46:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_scaled_image_[m[K’ was not declared in this scope
+   46 |         [01;31m[Kis_scaled_image_[m[K = true;
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1/src/my_scaled_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriberNode::[01;32m[Kimage_processing[m[K()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1/src/my_scaled_subscriber.cpp:55:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_scaled_image_[m[K’ was not declared in this scope
+   55 |         if ([01;31m[Kis_scaled_image_[m[K){
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1/src/my_scaled_subscriber.cpp:56:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kscaled_image_[m[K’ was not declared in this scope
+   56 |             cv::imshow("view", [01;31m[Kscaled_image_[m[K);
+      |                                [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/my_scaled_subscriber.dir/build.make:76: CMakeFiles/my_scaled_subscriber.dir/src/my_scaled_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:280: CMakeFiles/my_scaled_subscriber.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

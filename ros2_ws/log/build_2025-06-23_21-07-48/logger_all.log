@@ -1,0 +1,504 @@
+[0.207s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.207s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x78e1ad8673b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78e1ae99b350>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78e1ae99b350>>)
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.230s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros2_ws'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/images) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/images) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/images) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/images) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/images) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/images) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/images) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/images) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/images) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/images) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/images) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/images) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/images) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/images) by extension 'python_setup_py'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/rosbags) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/rosbags) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/rosbags) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/rosbags) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/rosbags) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/rosbags) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/rosbags) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/rosbags) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/rosbags) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/rosbags) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/rosbags) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/rosbags) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/rosbags) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/data/rosbags) by extension 'python_setup_py'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_1) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_1) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_1) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_1) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_1) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_1) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_1) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_1) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_1) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robovision_ros2/robovision_1' with type 'ros.ament_cmake' and name 'robovision_images'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_2) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_2) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_2) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_2) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_2) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_2) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_2) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_2) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_2) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robovision_ros2/robovision_2' with type 'ros.ament_cmake' and name 'robovision_processing'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_3) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_3) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_3) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_3) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_3) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_3) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_3) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_3) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_3) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robovision_ros2/robovision_3' with type 'ros.ament_cmake' and name 'robovision_rgbd'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_4) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_4) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_4) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_4) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_4) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_4) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_4) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_4) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_4) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robovision_ros2/robovision_4' with type 'ros.ament_cmake' and name 'robovision_services'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_interfaces) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_interfaces) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_interfaces) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_interfaces) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_interfaces) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_interfaces) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_interfaces) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robovision_ros2/robovision_interfaces) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robovision_ros2/robovision_interfaces' with type 'ros.ament_cmake' and name 'robovision_interfaces'
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.264s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/ubuntu/ros2_ws/install
+[0.264s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ubuntu/robovision_ros2_ws/install
+[0.265s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_images' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_images' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_images' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_images' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_images' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_images' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_images' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_images' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_images' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'robovision_images' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/robovision_images', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/robovision_images', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1', 'symlink_install': False, 'test_result_base': None}
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'robovision_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/robovision_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/robovision_interfaces', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_processing' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_processing' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_processing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_processing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_processing' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_processing' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_processing' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_processing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_processing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'robovision_processing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/robovision_processing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/robovision_processing', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_2', 'symlink_install': False, 'test_result_base': None}
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_rgbd' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_rgbd' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_rgbd' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_rgbd' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_rgbd' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_rgbd' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_rgbd' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_rgbd' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'robovision_rgbd' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'robovision_rgbd' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/robovision_rgbd', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/robovision_rgbd', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_3', 'symlink_install': False, 'test_result_base': None}
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'robovision_services' build argument 'cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'robovision_services' build argument 'cmake_target' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'robovision_services' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'robovision_services' build argument 'cmake_clean_cache' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'robovision_services' build argument 'cmake_clean_first' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'robovision_services' build argument 'cmake_force_configure' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'robovision_services' build argument 'ament_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'robovision_services' build argument 'catkin_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'robovision_services' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.287s] DEBUG:colcon.colcon_core.verb:Building package 'robovision_services' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/robovision_services', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/robovision_services', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_4', 'symlink_install': False, 'test_result_base': None}
+[0.287s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.287s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.288s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_interfaces' with build type 'ament_cmake'
+[0.288s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_interfaces'
+[0.289s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.289s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1' with build type 'ament_cmake'
+[0.292s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1'
+[0.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.294s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_2' with build type 'ament_cmake'
+[0.294s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_2'
+[0.294s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.296s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_3' with build type 'ament_cmake'
+[0.296s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_3'
+[0.296s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.297s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/robovision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_interfaces -- -j16 -l16
+[0.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/robovision_images': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_images -- -j16 -l16
+[0.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/robovision_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_processing -- -j16 -l16
+[0.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/robovision_rgbd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_rgbd -- -j16 -l16
+[0.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/robovision_rgbd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_rgbd -- -j16 -l16
+[0.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/robovision_rgbd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_rgbd
+[0.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/robovision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_interfaces -- -j16 -l16
+[0.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/robovision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_interfaces
+[0.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/robovision_images' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_images -- -j16 -l16
+[0.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/robovision_images': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_images
+[0.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robovision_rgbd)
+[0.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/robovision_rgbd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_rgbd
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_rgbd' for CMake module files
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_rgbd' for CMake config files
+[0.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_rgbd', 'cmake_prefix_path')
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/hook/cmake_prefix_path.ps1'
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/hook/cmake_prefix_path.dsv'
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/hook/cmake_prefix_path.sh'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_rgbd/lib'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_rgbd/bin'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_rgbd/lib/pkgconfig/robovision_rgbd.pc'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages'
+[0.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_rgbd', 'pythonpath')
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/hook/pythonpath.ps1'
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/hook/pythonpath.dsv'
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/hook/pythonpath.sh'
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_rgbd/bin'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/package.ps1'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/package.dsv'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/package.sh'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/package.bash'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/package.zsh'
+[0.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/robovision_rgbd/share/colcon-core/packages/robovision_rgbd)
+[0.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robovision_rgbd)
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_rgbd' for CMake module files
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_rgbd' for CMake config files
+[0.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_rgbd', 'cmake_prefix_path')
+[0.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/hook/cmake_prefix_path.ps1'
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/hook/cmake_prefix_path.dsv'
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/hook/cmake_prefix_path.sh'
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_rgbd/lib'
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_rgbd/bin'
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_rgbd/lib/pkgconfig/robovision_rgbd.pc'
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages'
+[0.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_rgbd', 'pythonpath')
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/hook/pythonpath.ps1'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/hook/pythonpath.dsv'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/hook/pythonpath.sh'
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_rgbd/bin'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/package.ps1'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/package.dsv'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/package.sh'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/package.bash'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/package.zsh'
+[0.618s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/robovision_rgbd/share/colcon-core/packages/robovision_rgbd)
+[0.620s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robovision_interfaces)
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_interfaces' for CMake module files
+[0.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/robovision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_interfaces
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_interfaces' for CMake config files
+[0.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_interfaces', 'cmake_prefix_path')
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/hook/cmake_prefix_path.ps1'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/hook/cmake_prefix_path.dsv'
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/hook/cmake_prefix_path.sh'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_interfaces/lib'
+[0.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_interfaces', 'ld_library_path_lib')
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/hook/ld_library_path_lib.ps1'
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/hook/ld_library_path_lib.dsv'
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/hook/ld_library_path_lib.sh'
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_interfaces/bin'
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_interfaces/lib/pkgconfig/robovision_interfaces.pc'
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages'
+[0.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_interfaces', 'pythonpath')
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/hook/pythonpath.ps1'
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/hook/pythonpath.dsv'
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/hook/pythonpath.sh'
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_interfaces/bin'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/package.ps1'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/package.dsv'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/package.sh'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/package.bash'
+[0.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/package.zsh'
+[0.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/robovision_interfaces/share/colcon-core/packages/robovision_interfaces)
+[0.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robovision_interfaces)
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_interfaces' for CMake module files
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_interfaces' for CMake config files
+[0.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_interfaces', 'cmake_prefix_path')
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/hook/cmake_prefix_path.ps1'
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/hook/cmake_prefix_path.dsv'
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/hook/cmake_prefix_path.sh'
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_interfaces/lib'
+[0.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_interfaces', 'ld_library_path_lib')
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/hook/ld_library_path_lib.ps1'
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/hook/ld_library_path_lib.dsv'
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/hook/ld_library_path_lib.sh'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_interfaces/bin'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_interfaces/lib/pkgconfig/robovision_interfaces.pc'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages'
+[0.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_interfaces', 'pythonpath')
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/hook/pythonpath.ps1'
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/hook/pythonpath.dsv'
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/hook/pythonpath.sh'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_interfaces/bin'
+[0.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/package.ps1'
+[0.630s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/package.dsv'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/package.sh'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/package.bash'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/package.zsh'
+[0.631s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/robovision_interfaces/share/colcon-core/packages/robovision_interfaces)
+[0.632s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_4' with build type 'ament_cmake'
+[0.632s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_4'
+[0.632s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.632s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robovision_images)
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_images' for CMake module files
+[0.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/robovision_images' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_images
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_images' for CMake config files
+[0.636s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_images', 'cmake_prefix_path')
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/hook/cmake_prefix_path.ps1'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/hook/cmake_prefix_path.dsv'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/hook/cmake_prefix_path.sh'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_images/lib'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_images/bin'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_images/lib/pkgconfig/robovision_images.pc'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages'
+[0.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_images', 'pythonpath')
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/hook/pythonpath.ps1'
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/hook/pythonpath.dsv'
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/hook/pythonpath.sh'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_images/bin'
+[0.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/package.ps1'
+[0.638s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/package.dsv'
+[0.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/package.sh'
+[0.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/package.bash'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/package.zsh'
+[0.639s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/robovision_images/share/colcon-core/packages/robovision_images)
+[0.639s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robovision_images)
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_images' for CMake module files
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_images' for CMake config files
+[0.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_images', 'cmake_prefix_path')
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/hook/cmake_prefix_path.ps1'
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/hook/cmake_prefix_path.dsv'
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/hook/cmake_prefix_path.sh'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_images/lib'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_images/bin'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_images/lib/pkgconfig/robovision_images.pc'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages'
+[0.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_images', 'pythonpath')
+[0.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/hook/pythonpath.ps1'
+[0.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/hook/pythonpath.dsv'
+[0.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/hook/pythonpath.sh'
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_images/bin'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/package.ps1'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/package.dsv'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/package.sh'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/package.bash'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/package.zsh'
+[0.643s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/robovision_images/share/colcon-core/packages/robovision_images)
+[0.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/robovision_services': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/robovision_interfaces:/home/ubuntu/ros2_ws/install/vision_opencv:/home/ubuntu/ros2_ws/install/robovision_services:/home/ubuntu/ros2_ws/install/robovision_rgbd:/home/ubuntu/ros2_ws/install/robovision_processing:/home/ubuntu/ros2_ws/install/robovision_images:/home/ubuntu/ros2_ws/install/image_geometry:/home/ubuntu/ros2_ws/install/cv_bridge:/home/ubuntu/robovision_ros2_ws/install/robovision_images:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy PYTHONPATH=/home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/robovision_services/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/robovision_processing/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/opencv_tests/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/image_geometry/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages:/home/ubuntu/robovision_ros2_ws/install/robovision_images/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_services -- -j16 -l16
+[0.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/robovision_services' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/robovision_interfaces:/home/ubuntu/ros2_ws/install/vision_opencv:/home/ubuntu/ros2_ws/install/robovision_services:/home/ubuntu/ros2_ws/install/robovision_rgbd:/home/ubuntu/ros2_ws/install/robovision_processing:/home/ubuntu/ros2_ws/install/robovision_images:/home/ubuntu/ros2_ws/install/image_geometry:/home/ubuntu/ros2_ws/install/cv_bridge:/home/ubuntu/robovision_ros2_ws/install/robovision_images:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy PYTHONPATH=/home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/robovision_services/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/robovision_processing/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/opencv_tests/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/image_geometry/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages:/home/ubuntu/robovision_ros2_ws/install/robovision_images/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_services -- -j16 -l16
+[0.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/robovision_services': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/robovision_interfaces:/home/ubuntu/ros2_ws/install/vision_opencv:/home/ubuntu/ros2_ws/install/robovision_services:/home/ubuntu/ros2_ws/install/robovision_rgbd:/home/ubuntu/ros2_ws/install/robovision_processing:/home/ubuntu/ros2_ws/install/robovision_images:/home/ubuntu/ros2_ws/install/image_geometry:/home/ubuntu/ros2_ws/install/cv_bridge:/home/ubuntu/robovision_ros2_ws/install/robovision_images:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy PYTHONPATH=/home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/robovision_services/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/robovision_processing/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/opencv_tests/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/image_geometry/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages:/home/ubuntu/robovision_ros2_ws/install/robovision_images/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_services
+[1.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robovision_services)
+[1.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/robovision_services' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/robovision_interfaces:/home/ubuntu/ros2_ws/install/vision_opencv:/home/ubuntu/ros2_ws/install/robovision_services:/home/ubuntu/ros2_ws/install/robovision_rgbd:/home/ubuntu/ros2_ws/install/robovision_processing:/home/ubuntu/ros2_ws/install/robovision_images:/home/ubuntu/ros2_ws/install/image_geometry:/home/ubuntu/ros2_ws/install/cv_bridge:/home/ubuntu/robovision_ros2_ws/install/robovision_images:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy PYTHONPATH=/home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/robovision_services/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/robovision_processing/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/opencv_tests/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/image_geometry/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages:/home/ubuntu/robovision_ros2_ws/install/robovision_images/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_services
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_services' for CMake module files
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_services' for CMake config files
+[1.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_services', 'cmake_prefix_path')
+[1.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/hook/cmake_prefix_path.ps1'
+[1.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/hook/cmake_prefix_path.dsv'
+[1.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/hook/cmake_prefix_path.sh'
+[1.037s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_services/lib'
+[1.037s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_services/bin'
+[1.037s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_services/lib/pkgconfig/robovision_services.pc'
+[1.037s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_services/lib/python3.12/site-packages'
+[1.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_services', 'pythonpath')
+[1.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/hook/pythonpath.ps1'
+[1.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/hook/pythonpath.dsv'
+[1.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/hook/pythonpath.sh'
+[1.038s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_services/bin'
+[1.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/package.ps1'
+[1.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/package.dsv'
+[1.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/package.sh'
+[1.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/package.bash'
+[1.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/package.zsh'
+[1.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/robovision_services/share/colcon-core/packages/robovision_services)
+[1.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robovision_services)
+[1.039s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_services' for CMake module files
+[1.040s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_services' for CMake config files
+[1.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_services', 'cmake_prefix_path')
+[1.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/hook/cmake_prefix_path.ps1'
+[1.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/hook/cmake_prefix_path.dsv'
+[1.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/hook/cmake_prefix_path.sh'
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_services/lib'
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_services/bin'
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_services/lib/pkgconfig/robovision_services.pc'
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_services/lib/python3.12/site-packages'
+[1.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_services', 'pythonpath')
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/hook/pythonpath.ps1'
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/hook/pythonpath.dsv'
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/hook/pythonpath.sh'
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_services/bin'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/package.ps1'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/package.dsv'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/package.sh'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/package.bash'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_services/share/robovision_services/package.zsh'
+[1.043s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/robovision_services/share/colcon-core/packages/robovision_services)
+[6.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/robovision_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_processing -- -j16 -l16
+[6.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/robovision_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_processing
+[6.915s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robovision_processing)
+[6.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/robovision_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_processing
+[6.916s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_processing' for CMake module files
+[6.916s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_processing' for CMake config files
+[6.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_processing', 'cmake_prefix_path')
+[6.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/hook/cmake_prefix_path.ps1'
+[6.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/hook/cmake_prefix_path.dsv'
+[6.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/hook/cmake_prefix_path.sh'
+[6.917s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_processing/lib'
+[6.917s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_processing/bin'
+[6.917s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_processing/lib/pkgconfig/robovision_processing.pc'
+[6.917s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_processing/lib/python3.12/site-packages'
+[6.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_processing', 'pythonpath')
+[6.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/hook/pythonpath.ps1'
+[6.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/hook/pythonpath.dsv'
+[6.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/hook/pythonpath.sh'
+[6.918s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_processing/bin'
+[6.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/package.ps1'
+[6.918s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/package.dsv'
+[6.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/package.sh'
+[6.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/package.bash'
+[6.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/package.zsh'
+[6.919s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/robovision_processing/share/colcon-core/packages/robovision_processing)
+[6.919s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robovision_processing)
+[6.919s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_processing' for CMake module files
+[6.920s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_processing' for CMake config files
+[6.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_processing', 'cmake_prefix_path')
+[6.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/hook/cmake_prefix_path.ps1'
+[6.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/hook/cmake_prefix_path.dsv'
+[6.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/hook/cmake_prefix_path.sh'
+[6.920s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_processing/lib'
+[6.921s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_processing/bin'
+[6.921s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_processing/lib/pkgconfig/robovision_processing.pc'
+[6.921s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_processing/lib/python3.12/site-packages'
+[6.921s] Level 1:colcon.colcon_core.shell:create_environment_hook('robovision_processing', 'pythonpath')
+[6.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/hook/pythonpath.ps1'
+[6.921s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/hook/pythonpath.dsv'
+[6.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/hook/pythonpath.sh'
+[6.921s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/robovision_processing/bin'
+[6.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/package.ps1'
+[6.922s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/package.dsv'
+[6.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/package.sh'
+[6.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/package.bash'
+[6.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/package.zsh'
+[6.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/robovision_processing/share/colcon-core/packages/robovision_processing)
+[6.923s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.923s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.923s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.923s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.958s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.958s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.958s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.958s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.959s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[6.959s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.959s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.ps1'
+[6.959s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/install/_local_setup_util_ps1.py'
+[6.960s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.ps1'
+[6.960s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.sh'
+[6.961s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/install/_local_setup_util_sh.py'
+[6.961s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.sh'
+[6.962s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.bash'
+[6.962s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.bash'
+[6.963s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.zsh'
+[6.963s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.zsh'

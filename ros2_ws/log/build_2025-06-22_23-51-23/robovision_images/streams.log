@@ -1,0 +1,54 @@
+[0.015s] Invoking command in '/home/ubuntu/ros2_ws/build/robovision_images': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_images -- -j16 -l16
+[0.041s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.239s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.632s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.642s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.654s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.728s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.730s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.296s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.847s] -- Found cv_bridge: 3.2.1 (/home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake)
+[2.030s] -- Configuring done (2.0s)
+[2.064s] -- Generating done (0.0s)
+[2.072s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/robovision_images
+[2.099s] [  8%] [32mBuilding CXX object CMakeFiles/my_scaled_subscriber.dir/src/my_scaled_subscriber.cpp.o[0m
+[2.105s] [ 25%] Built target my_publisher
+[2.105s] [ 58%] Built target my_scaled_camera_publisher
+[2.105s] [ 58%] Built target my_scaled_publisher
+[2.107s] [ 75%] Built target my_camera_publisher
+[2.108s] [ 75%] Built target ament_cmake_python_copy_robovision_images
+[2.110s] [ 83%] [32mBuilding CXX object CMakeFiles/my_subscriber.dir/src/my_subscriber.cpp.o[0m
+[2.226s] running egg_info
+[2.236s] writing robovision_images.egg-info/PKG-INFO
+[2.236s] writing dependency_links to robovision_images.egg-info/dependency_links.txt
+[2.236s] writing top-level names to robovision_images.egg-info/top_level.txt
+[2.262s] reading manifest file 'robovision_images.egg-info/SOURCES.txt'
+[2.262s] writing manifest file 'robovision_images.egg-info/SOURCES.txt'
+[2.280s] [ 83%] Built target ament_cmake_python_build_robovision_images_egg
+[3.935s] [01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1/src/my_scaled_subscriber.cpp:[m[K In constructor ‘[01m[KImageSubscriberNode::[01;32m[KImageSubscriberNode[m[K()[m[K’:
+[3.935s] [01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1/src/my_scaled_subscriber.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kscaled_image_subscriber_[m[K’ was not declared in this scope; did you mean ‘[01m[Kimage_subscriber_[m[K’?
+[3.935s]    17 |         [01;31m[Kscaled_image_subscriber_[m[K = create_subscription<sensor_msgs::msg::Image>(
+[3.935s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.935s]       |         [32m[Kimage_subscriber_[m[K
+[3.950s] [01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1/src/my_scaled_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriberNode::[01;32m[Kcallback_scaled_image[m[K(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.950s] [01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1/src/my_scaled_subscriber.cpp:45:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kscaled_image[m[K’ was not declared in this scope
+[3.950s]    45 |         cv::resize(image_, [01;31m[Kscaled_image[m[K, cv::Size(), 0.5, 0.5, CV_INTER_AREA);
+[3.950s]       |                            [01;31m[K^~~~~~~~~~~~[m[K
+[3.958s] [01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1/src/my_scaled_subscriber.cpp:46:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_scaled_image_[m[K’ was not declared in this scope
+[3.958s]    46 |         [01;31m[Kis_scaled_image_[m[K = true;
+[3.958s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.965s] [01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1/src/my_scaled_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriberNode::[01;32m[Kimage_processing[m[K()[m[K’:
+[3.965s] [01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1/src/my_scaled_subscriber.cpp:55:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_scaled_image_[m[K’ was not declared in this scope
+[3.965s]    55 |         if ([01;31m[Kis_scaled_image_[m[K){
+[3.965s]       |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.972s] [01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1/src/my_scaled_subscriber.cpp:56:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kscaled_image_[m[K’ was not declared in this scope
+[3.972s]    56 |             cv::imshow("view", [01;31m[Kscaled_image_[m[K);
+[3.972s]       |                                [01;31m[K^~~~~~~~~~~~~[m[K
+[5.722s] gmake[2]: *** [CMakeFiles/my_scaled_subscriber.dir/build.make:76: CMakeFiles/my_scaled_subscriber.dir/src/my_scaled_subscriber.cpp.o] Error 1
+[5.722s] gmake[1]: *** [CMakeFiles/Makefile2:280: CMakeFiles/my_scaled_subscriber.dir/all] Error 2
+[5.722s] gmake[1]: *** Waiting for unfinished jobs....
+[8.127s] [ 91%] [32m[1mLinking CXX executable my_subscriber[0m
+[8.717s] [ 91%] Built target my_subscriber
+[8.718s] gmake: *** [Makefile:146: all] Error 2
+[8.719s] Invoked command in '/home/ubuntu/ros2_ws/build/robovision_images' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_images -- -j16 -l16

@@ -1,0 +1,55 @@
+[0.008s] Invoking command in '/home/ubuntu/ros2_ws/build/robovision_images': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_images -- -j16 -l16
+[0.047s] [ 16%] Built target my_subscriber
+[0.048s] [ 33%] Built target my_publisher
+[0.049s] [ 50%] Built target my_scaled_camera_publisher
+[0.050s] [ 66%] Built target my_camera_publisher
+[0.050s] [ 66%] Built target ament_cmake_python_copy_robovision_images
+[0.051s] [ 75%] [32mBuilding CXX object CMakeFiles/my_scaled_subscriber.dir/src/my_scaled_subscriber.cpp.o[0m
+[0.051s] [ 91%] Built target my_scaled_publisher
+[0.192s] running egg_info
+[0.201s] writing robovision_images.egg-info/PKG-INFO
+[0.201s] writing dependency_links to robovision_images.egg-info/dependency_links.txt
+[0.201s] writing top-level names to robovision_images.egg-info/top_level.txt
+[0.230s] reading manifest file 'robovision_images.egg-info/SOURCES.txt'
+[0.230s] writing manifest file 'robovision_images.egg-info/SOURCES.txt'
+[0.249s] [ 91%] Built target ament_cmake_python_build_robovision_images_egg
+[6.108s] [100%] [32m[1mLinking CXX executable my_scaled_subscriber[0m
+[6.646s] [100%] Built target my_scaled_subscriber
+[6.653s] Invoked command in '/home/ubuntu/ros2_ws/build/robovision_images' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_images -- -j16 -l16
+[6.654s] Invoking command in '/home/ubuntu/ros2_ws/build/robovision_images': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_images
+[6.659s] -- Install configuration: ""
+[6.659s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/environment/pythonpath.sh
+[6.659s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/environment/pythonpath.dsv
+[6.659s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages/robovision_images-0.0.0-py3.12.egg-info
+[6.659s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages/robovision_images-0.0.0-py3.12.egg-info/top_level.txt
+[6.659s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages/robovision_images-0.0.0-py3.12.egg-info/dependency_links.txt
+[6.659s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages/robovision_images-0.0.0-py3.12.egg-info/PKG-INFO
+[6.659s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages/robovision_images-0.0.0-py3.12.egg-info/SOURCES.txt
+[6.659s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages/robovision_images
+[6.659s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages/robovision_images/__init__.py
+[6.682s] Listing '/home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages/robovision_images'...
+[6.686s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/robovision_images/my_publisher
+[6.686s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/robovision_images/my_scaled_publisher
+[6.686s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/robovision_images/my_camera_publisher
+[6.686s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/robovision_images/my_scaled_camera_publisher
+[6.686s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_images/lib/robovision_images/my_subscriber
+[6.689s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_ws/install/robovision_images/lib/robovision_images/my_subscriber" to ""
+[6.689s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_images/lib/robovision_images/my_scaled_subscriber
+[6.691s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_ws/install/robovision_images/lib/robovision_images/my_scaled_subscriber" to ""
+[6.691s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/robovision_images/my_subscriber.py
+[6.691s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/ament_index/resource_index/package_run_dependencies/robovision_images
+[6.691s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/ament_index/resource_index/parent_prefix_path/robovision_images
+[6.691s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/environment/ament_prefix_path.sh
+[6.691s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/environment/ament_prefix_path.dsv
+[6.691s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/environment/path.sh
+[6.691s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/environment/path.dsv
+[6.692s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/local_setup.bash
+[6.692s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/local_setup.sh
+[6.692s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/local_setup.zsh
+[6.692s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/local_setup.dsv
+[6.692s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/package.dsv
+[6.692s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/ament_index/resource_index/packages/robovision_images
+[6.692s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/cmake/robovision_imagesConfig.cmake
+[6.692s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/cmake/robovision_imagesConfig-version.cmake
+[6.692s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/package.xml
+[6.693s] Invoked command in '/home/ubuntu/ros2_ws/build/robovision_images' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_images

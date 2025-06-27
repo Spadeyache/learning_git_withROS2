@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7e87d5b9e95eab9c1023.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robovision_images",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robovision_images_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robovision_images_egg-d15b5780af3b38989b6d.json",
+					"name" : "ament_cmake_python_build_robovision_images_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robovision_images::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robovision_images-9459fb2f5b752c162739.json",
+					"name" : "ament_cmake_python_copy_robovision_images",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "facerecognition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-facerecognition-9b63dad967923d2e11bc.json",
+					"name" : "facerecognition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_camera_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_camera_publisher-18dc970118ee4308689f.json",
+					"name" : "my_camera_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_publisher-e0c83ae5074f4394efb4.json",
+					"name" : "my_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_scaled_camera_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_scaled_camera_publisher-286333347dad60c9de4c.json",
+					"name" : "my_scaled_camera_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_scaled_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_scaled_publisher-76bc9efcad0c5ee5116c.json",
+					"name" : "my_scaled_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_scaled_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_scaled_subscriber-73179b4b2038e47ea00a.json",
+					"name" : "my_scaled_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_subscriber-439144d483e5ea4946b5.json",
+					"name" : "my_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robovision_images_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robovision_images_uninstall-995820fd7c2a7f1a7c12.json",
+					"name" : "robovision_images_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-06a6cc71dd12c69ce0d7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/ros2_ws/build/robovision_images",
+		"source" : "/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

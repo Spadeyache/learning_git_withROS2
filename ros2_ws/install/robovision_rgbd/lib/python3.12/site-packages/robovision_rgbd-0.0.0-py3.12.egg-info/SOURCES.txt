@@ -1,0 +1,6 @@
+setup.py
+robovision_rgbd/__init__.py
+robovision_rgbd.egg-info/PKG-INFO
+robovision_rgbd.egg-info/SOURCES.txt
+robovision_rgbd.egg-info/dependency_links.txt
+robovision_rgbd.egg-info/top_level.txt

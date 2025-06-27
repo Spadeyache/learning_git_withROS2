@@ -1,0 +1,24 @@
+[0.015s] Invoking command in '/home/ubuntu/ros2_ws/build/robovision_rgbd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_rgbd -- -j16 -l16
+[0.093s] [ 25%] Built target rgbd_reader_faceRecog_tracking2
+[0.093s] [ 50%] Built target rgbd_reader
+[0.094s] [ 62%] [32mBuilding CXX object CMakeFiles/rgbd_reader_faceRecog_tracking.dir/src/rgbd_reader_faceRecog_tracking.cpp.o[0m
+[0.094s] [ 62%] Built target ament_cmake_python_copy_robovision_rgbd
+[0.096s] [ 87%] Built target rgbd_reader_faceRecog2
+[0.235s] running egg_info
+[0.244s] writing robovision_rgbd.egg-info/PKG-INFO
+[0.244s] writing dependency_links to robovision_rgbd.egg-info/dependency_links.txt
+[0.244s] writing top-level names to robovision_rgbd.egg-info/top_level.txt
+[0.271s] reading manifest file 'robovision_rgbd.egg-info/SOURCES.txt'
+[0.272s] writing manifest file 'robovision_rgbd.egg-info/SOURCES.txt'
+[0.292s] [ 87%] Built target ament_cmake_python_build_robovision_rgbd_egg
+[2.211s] [01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_3/src/rgbd_reader_faceRecog_tracking.cpp:[m[K In member function ‘[01m[Kvoid PointCloudCentroidNode::[01;32m[KdetectAndDisplay[m[K(cv::Mat)[m[K’:
+[2.211s] [01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_3/src/rgbd_reader_faceRecog_tracking.cpp:165:62:[m[K [01;31m[Kerror: [m[K‘[01m[Krow_id[m[K’ was not declared in this scope
+[2.211s]   165 |                 cv::Vec4f point = point_cloud_.at<cv::Vec4f>([01;31m[Krow_id[m[K, col_id);
+[2.211s]       |                                                              [01;31m[K^~~~~~[m[K
+[2.216s] [01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_3/src/rgbd_reader_faceRecog_tracking.cpp:165:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kcol_id[m[K’ was not declared in this scope
+[2.216s]   165 |                 cv::Vec4f point = point_cloud_.at<cv::Vec4f>(row_id, [01;31m[Kcol_id[m[K);
+[2.216s]       |                                                                      [01;31m[K^~~~~~[m[K
+[4.597s] gmake[2]: *** [CMakeFiles/rgbd_reader_faceRecog_tracking.dir/build.make:76: CMakeFiles/rgbd_reader_faceRecog_tracking.dir/src/rgbd_reader_faceRecog_tracking.cpp.o] Error 1
+[4.597s] gmake[1]: *** [CMakeFiles/Makefile2:198: CMakeFiles/rgbd_reader_faceRecog_tracking.dir/all] Error 2
+[4.597s] gmake: *** [Makefile:146: all] Error 2
+[4.599s] Invoked command in '/home/ubuntu/ros2_ws/build/robovision_rgbd' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_rgbd -- -j16 -l16

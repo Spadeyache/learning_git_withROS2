@@ -1,0 +1,15 @@
+/home/ubuntu/ros2_ws/build/robovision_rgbd/CMakeFiles/uninstall.dir
+/home/ubuntu/ros2_ws/build/robovision_rgbd/CMakeFiles/robovision_rgbd_uninstall.dir
+/home/ubuntu/ros2_ws/build/robovision_rgbd/CMakeFiles/rgbd_reader.dir
+/home/ubuntu/ros2_ws/build/robovision_rgbd/CMakeFiles/rgbd_reader_faceRecog2.dir
+/home/ubuntu/ros2_ws/build/robovision_rgbd/CMakeFiles/rgbd_reader_faceRecog_tracking.dir
+/home/ubuntu/ros2_ws/build/robovision_rgbd/CMakeFiles/rgbd_reader_faceRecog_tracking2.dir
+/home/ubuntu/ros2_ws/build/robovision_rgbd/CMakeFiles/ament_cmake_python_copy_robovision_rgbd.dir
+/home/ubuntu/ros2_ws/build/robovision_rgbd/CMakeFiles/ament_cmake_python_build_robovision_rgbd_egg.dir
+/home/ubuntu/ros2_ws/build/robovision_rgbd/CMakeFiles/test.dir
+/home/ubuntu/ros2_ws/build/robovision_rgbd/CMakeFiles/edit_cache.dir
+/home/ubuntu/ros2_ws/build/robovision_rgbd/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ros2_ws/build/robovision_rgbd/CMakeFiles/list_install_components.dir
+/home/ubuntu/ros2_ws/build/robovision_rgbd/CMakeFiles/install.dir
+/home/ubuntu/ros2_ws/build/robovision_rgbd/CMakeFiles/install/local.dir
+/home/ubuntu/ros2_ws/build/robovision_rgbd/CMakeFiles/install/strip.dir

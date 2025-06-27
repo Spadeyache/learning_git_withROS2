@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b0e5b1cac311837165a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robovision_services",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robovision_services_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robovision_services_egg-52c90233dc5f225b72c9.json",
+					"name" : "ament_cmake_python_build_robovision_services_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robovision_services::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robovision_services-ac76bc997f3aa0c5716d.json",
+					"name" : "ament_cmake_python_copy_robovision_services",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robovision_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robovision_client-b0f3bb9e0eb3abc12867.json",
+					"name" : "robovision_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robovision_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robovision_service-e4dbb958613f48d4a663.json",
+					"name" : "robovision_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robovision_services_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robovision_services_uninstall-61c7c18ab5ae46694488.json",
+					"name" : "robovision_services_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3ecc6807ce313b061020.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/ros2_ws/build/robovision_services",
+		"source" : "/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

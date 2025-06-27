@@ -1,0 +1,44 @@
+[0.016s] Invoking command in '/home/ubuntu/ros2_ws/build/robovision_rgbd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_rgbd -- -j16 -l16
+[0.125s] [  0%] Built target ament_cmake_python_copy_robovision_rgbd
+[0.178s] [ 50%] [32mBuilding CXX object CMakeFiles/rgbd_reader.dir/src/rgbd_reader.cpp.o[0m
+[0.287s] running egg_info
+[0.300s] writing robovision_rgbd.egg-info/PKG-INFO
+[0.300s] writing dependency_links to robovision_rgbd.egg-info/dependency_links.txt
+[0.300s] writing top-level names to robovision_rgbd.egg-info/top_level.txt
+[0.328s] reading manifest file 'robovision_rgbd.egg-info/SOURCES.txt'
+[0.328s] writing manifest file 'robovision_rgbd.egg-info/SOURCES.txt'
+[0.347s] [ 50%] Built target ament_cmake_python_build_robovision_rgbd_egg
+[9.083s] [100%] [32m[1mLinking CXX executable rgbd_reader[0m
+[10.304s] [100%] Built target rgbd_reader
+[10.319s] Invoked command in '/home/ubuntu/ros2_ws/build/robovision_rgbd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_rgbd -- -j16 -l16
+[10.323s] Invoking command in '/home/ubuntu/ros2_ws/build/robovision_rgbd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_rgbd
+[10.336s] -- Install configuration: ""
+[10.337s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/environment/pythonpath.sh
+[10.337s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/environment/pythonpath.dsv
+[10.337s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd-0.0.0-py3.12.egg-info
+[10.337s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd-0.0.0-py3.12.egg-info/top_level.txt
+[10.337s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd-0.0.0-py3.12.egg-info/dependency_links.txt
+[10.337s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd-0.0.0-py3.12.egg-info/PKG-INFO
+[10.337s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd-0.0.0-py3.12.egg-info/SOURCES.txt
+[10.337s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd
+[10.337s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd/__init__.py
+[10.378s] Listing '/home/ubuntu/ros2_ws/install/robovision_rgbd/lib/python3.12/site-packages/robovision_rgbd'...
+[10.384s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/robovision_rgbd/rgbd_reader
+[10.389s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_ws/install/robovision_rgbd/lib/robovision_rgbd/rgbd_reader" to ""
+[10.390s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/lib/robovision_rgbd/rgbd_reader.py
+[10.390s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/ament_index/resource_index/package_run_dependencies/robovision_rgbd
+[10.391s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/ament_index/resource_index/parent_prefix_path/robovision_rgbd
+[10.391s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/environment/ament_prefix_path.sh
+[10.391s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/environment/ament_prefix_path.dsv
+[10.391s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/environment/path.sh
+[10.391s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/environment/path.dsv
+[10.391s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/local_setup.bash
+[10.392s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/local_setup.sh
+[10.392s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/local_setup.zsh
+[10.392s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/local_setup.dsv
+[10.392s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/package.dsv
+[10.392s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/ament_index/resource_index/packages/robovision_rgbd
+[10.392s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/cmake/robovision_rgbdConfig.cmake
+[10.393s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/cmake/robovision_rgbdConfig-version.cmake
+[10.393s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_rgbd/share/robovision_rgbd/package.xml
+[10.395s] Invoked command in '/home/ubuntu/ros2_ws/build/robovision_rgbd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_rgbd

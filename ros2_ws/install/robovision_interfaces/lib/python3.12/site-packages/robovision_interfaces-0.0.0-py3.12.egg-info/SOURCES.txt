@@ -1,0 +1,11 @@
+setup.py
+robovision_interfaces/__init__.py
+robovision_interfaces.egg-info/PKG-INFO
+robovision_interfaces.egg-info/SOURCES.txt
+robovision_interfaces.egg-info/dependency_links.txt
+robovision_interfaces.egg-info/top_level.txt
+robovision_interfaces/msg/__init__.py
+robovision_interfaces/msg/_object_centroid.py
+robovision_interfaces/msg/_object_centroids.py
+robovision_interfaces/srv/__init__.py
+robovision_interfaces/srv/_get_point_center.py

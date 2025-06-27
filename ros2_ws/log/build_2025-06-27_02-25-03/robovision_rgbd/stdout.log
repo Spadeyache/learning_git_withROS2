@@ -1,0 +1,12 @@
+[ 25%] Built target rgbd_reader
+[ 50%] Built target rgbd_reader_faceRecog_tracking2
+[ 75%] Built target rgbd_reader_faceRecog2
+[ 75%] Built target ament_cmake_python_copy_robovision_rgbd
+[ 87%] [32mBuilding CXX object CMakeFiles/rgbd_reader_faceRecog_tracking.dir/src/rgbd_reader_faceRecog_tracking.cpp.o[0m
+running egg_info
+writing robovision_rgbd.egg-info/PKG-INFO
+writing dependency_links to robovision_rgbd.egg-info/dependency_links.txt
+writing top-level names to robovision_rgbd.egg-info/top_level.txt
+reading manifest file 'robovision_rgbd.egg-info/SOURCES.txt'
+writing manifest file 'robovision_rgbd.egg-info/SOURCES.txt'
+[ 87%] Built target ament_cmake_python_build_robovision_rgbd_egg

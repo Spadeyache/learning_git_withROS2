@@ -1,0 +1,18 @@
+[  0%] Built target ament_cmake_python_copy_robovision_processing
+[ 50%] [32mBuilding CXX object CMakeFiles/my_processing.dir/src/my_processing.cpp.o[0m
+running egg_info
+writing robovision_processing.egg-info/PKG-INFO
+writing dependency_links to robovision_processing.egg-info/dependency_links.txt
+writing top-level names to robovision_processing.egg-info/top_level.txt
+reading manifest file 'robovision_processing.egg-info/SOURCES.txt'
+writing manifest file 'robovision_processing.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_robovision_processing_egg
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_2/src/my_processing.cpp:37:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_[m[K’ is not a type
+   37 |     cv::Mat image_gray_2([01;31m[Kimage_[m[K.rows, image_.cols, CV_8UC1);
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_2/src/my_processing.cpp:37:32:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K.[m[K’ token
+   37 |     cv::Mat image_gray_2(image_[01;31m[K.[m[Krows, image_.cols, CV_8UC1);
+      |                                [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/my_processing.dir/build.make:76: CMakeFiles/my_processing.dir/src/my_processing.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/my_processing.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

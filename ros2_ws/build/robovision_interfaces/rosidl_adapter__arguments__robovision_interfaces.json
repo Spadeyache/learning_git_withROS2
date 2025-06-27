@@ -1,0 +1,8 @@
+{
+  "package_name": "robovision_interfaces",
+  "non_idl_tuples": [
+    "/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_interfaces:msg/ObjectCentroid.msg",
+    "/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_interfaces:msg/ObjectCentroids.msg",
+    "/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_interfaces:srv/GetPointCenter.srv"
+  ]
+}

@@ -1,0 +1,126 @@
+[0.009s] Invoking command in '/home/ubuntu/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/ros2_ws/src/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/cv_bridge
+[0.159s] -- The C compiler identification is GNU 13.3.0
+[0.495s] -- The CXX compiler identification is GNU 13.3.0
+[0.721s] -- Detecting C compiler ABI info
+[0.834s] -- Detecting C compiler ABI info - done
+[0.839s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.840s] -- Detecting C compile features
+[0.841s] -- Detecting C compile features - done
+[0.870s] -- Detecting CXX compiler ABI info
+[0.985s] -- Detecting CXX compiler ABI info - done
+[0.991s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.991s] -- Detecting CXX compile features
+[0.991s] -- Detecting CXX compile features - done
+[0.997s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.094s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.494s] -- Found Python3: /usr/include/python3.12 (found version "3.12.3") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[1.508s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: python312 
+[1.511s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.623s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.630s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.639s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.650s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.707s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.710s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.765s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.882s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.965s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.113s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.237s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.398s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.398s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.573s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[2.574s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[2.753s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.766s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.850s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.852s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.969s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.970s] -- Found Threads: TRUE  
+[3.677s] -- Configuring done (3.6s)
+[3.696s] -- Generating done (0.0s)
+[3.701s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/cv_bridge
+[3.709s] Invoked command in '/home/ubuntu/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/ros2_ws/src/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/cv_bridge
+[3.710s] Invoking command in '/home/ubuntu/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/cv_bridge -- -j16 -l16
+[3.740s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.741s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.741s] [ 16%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o[0m
+[3.744s] [ 22%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o[0m
+[3.744s] [ 27%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_mat_sensor_msgs_image_type_adapter.cpp.o[0m
+[3.746s] [ 27%] Built target ament_cmake_python_copy_cv_bridge
+[3.894s] running egg_info
+[3.895s] creating cv_bridge.egg-info
+[3.910s] writing cv_bridge.egg-info/PKG-INFO
+[3.910s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[3.911s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[3.911s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[3.959s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[3.959s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[3.979s] [ 27%] Built target ament_cmake_python_build_cv_bridge_egg
+[4.356s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.381s] [ 33%] Built target gtest_main
+[6.280s] [ 38%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.318s] [ 38%] Built target gtest
+[6.369s] [ 44%] [32m[1mLinking CXX shared library libcv_bridge.so[0m
+[6.626s] [ 44%] Built target cv_bridge
+[6.640s] [ 55%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o[0m
+[6.640s] [ 55%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o[0m
+[6.640s] [ 61%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o[0m
+[6.640s] [ 66%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o[0m
+[6.642s] [ 72%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o[0m
+[6.642s] [ 77%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o[0m
+[6.642s] [ 83%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv4.cpp.o[0m
+[6.645s] [ 88%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_dynamic_scaling.cpp.o[0m
+[9.060s] [ 94%] [32m[1mLinking CXX executable cv_bridge-utest[0m
+[9.627s] [ 94%] Built target cv_bridge-utest
+[10.358s] [100%] [32m[1mLinking CXX shared module boost/cv_bridge_boost.so[0m
+[10.526s] [100%] Built target cv_bridge_boost
+[10.533s] Invoked command in '/home/ubuntu/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/cv_bridge -- -j16 -l16
+[10.534s] Invoking command in '/home/ubuntu/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/cv_bridge
+[10.539s] -- Install configuration: ""
+[10.540s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[10.540s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[10.540s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info
+[10.540s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info/top_level.txt
+[10.540s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info/dependency_links.txt
+[10.540s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info/PKG-INFO
+[10.540s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info/SOURCES.txt
+[10.541s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge
+[10.541s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/core.py
+[10.541s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/__init__.py
+[10.566s] Listing '/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge'...
+[10.566s] Compiling '/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/__init__.py'...
+[10.566s] Compiling '/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/core.py'...
+[10.570s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
+[10.571s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_ws/install/cv_bridge/lib/libcv_bridge.so" to ""
+[10.571s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[10.572s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/boost/cv_bridge_boost.so
+[10.572s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/boost/cv_bridge_boost.so" to ""
+[10.572s] -- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/include/cv_bridge
+[10.572s] -- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge
+[10.573s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_mat_sensor_msgs_image_type_adapter.hpp
+[10.573s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/visibility_control.h
+[10.573s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.hpp
+[10.573s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp
+[10.573s] -- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
+[10.573s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[10.573s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[10.573s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[10.573s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[10.573s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/path.sh
+[10.573s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[10.574s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.bash
+[10.574s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.sh
+[10.574s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[10.574s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[10.574s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/package.dsv
+[10.574s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[10.574s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[10.574s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake
+[10.574s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[10.574s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.574s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[10.575s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[10.575s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[10.575s] -- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/package.xml
+[10.576s] Invoked command in '/home/ubuntu/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/cv_bridge

@@ -1,0 +1,14 @@
+[ 16%] Built target my_scaled_publisher
+[ 33%] Built target my_subscriber
+[ 33%] Built target ament_cmake_python_copy_robovision_images
+[ 50%] Built target my_scaled_camera_publisher
+[ 66%] Built target my_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/my_scaled_subscriber.dir/src/my_scaled_subscriber.cpp.o[0m
+[ 91%] Built target my_camera_publisher
+running egg_info
+writing robovision_images.egg-info/PKG-INFO
+writing dependency_links to robovision_images.egg-info/dependency_links.txt
+writing top-level names to robovision_images.egg-info/top_level.txt
+reading manifest file 'robovision_images.egg-info/SOURCES.txt'
+writing manifest file 'robovision_images.egg-info/SOURCES.txt'
+[ 91%] Built target ament_cmake_python_build_robovision_images_egg

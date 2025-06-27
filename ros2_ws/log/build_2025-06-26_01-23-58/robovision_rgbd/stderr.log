@@ -1,0 +1,20 @@
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_3/src/rgbd_reader_faceRecog2.cpp:[m[K In constructor ‘[01m[KPointCloudCentroidNode::[01;32m[KPointCloudCentroidNode[m[K()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_3/src/rgbd_reader_faceRecog2.cpp:72:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KPointCloudCentroidNode::is_ptcld_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   72 |     bool [01;35m[Kis_ptcld_[m[K;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_3/src/rgbd_reader_faceRecog2.cpp:69:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool PointCloudCentroidNode::is_image_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   69 |     bool [01;35m[Kis_image_[m[K;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_3/src/rgbd_reader_faceRecog2.cpp:26:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   26 |     [01;35m[KPointCloudCentroidNode[m[K()
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_3/src/rgbd_reader_faceRecog_tracking.cpp:[m[K In constructor ‘[01m[KPointCloudCentroidNode::[01;32m[KPointCloudCentroidNode[m[K()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_3/src/rgbd_reader_faceRecog_tracking.cpp:66:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KPointCloudCentroidNode::is_ptcld_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   66 |     bool [01;35m[Kis_ptcld_[m[K;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_3/src/rgbd_reader_faceRecog_tracking.cpp:64:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool PointCloudCentroidNode::is_image_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   64 |     bool [01;35m[Kis_image_[m[K;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_3/src/rgbd_reader_faceRecog_tracking.cpp:26:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   26 |     [01;35m[KPointCloudCentroidNode[m[K()
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K

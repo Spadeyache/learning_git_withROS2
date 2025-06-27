@@ -1,0 +1,49 @@
+[ 14%] Built target my_publisher
+[ 28%] Built target my_camera_publisher
+[ 42%] Built target my_scaled_camera_publisher
+[ 42%] Built target ament_cmake_python_copy_robovision_images
+[ 57%] Built target my_scaled_publisher
+[ 71%] Built target facerecognition
+[ 85%] Built target my_scaled_subscriber
+[100%] Built target my_subscriber
+running egg_info
+writing robovision_images.egg-info/PKG-INFO
+writing dependency_links to robovision_images.egg-info/dependency_links.txt
+writing top-level names to robovision_images.egg-info/top_level.txt
+reading manifest file 'robovision_images.egg-info/SOURCES.txt'
+writing manifest file 'robovision_images.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_robovision_images_egg
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/environment/pythonpath.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/environment/pythonpath.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages/robovision_images-0.0.0-py3.12.egg-info
+-- Installing: /home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages/robovision_images-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages/robovision_images-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages/robovision_images-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages/robovision_images-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages/robovision_images
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages/robovision_images/__init__.py
+Listing '/home/ubuntu/ros2_ws/install/robovision_images/lib/python3.12/site-packages/robovision_images'...
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/robovision_images/my_publisher
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/robovision_images/my_scaled_publisher
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/robovision_images/my_camera_publisher
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/robovision_images/my_scaled_camera_publisher
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/robovision_images/my_subscriber
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/robovision_images/my_scaled_subscriber
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/robovision_images/facerecognition
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/lib/robovision_images/my_subscriber.py
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/ament_index/resource_index/package_run_dependencies/robovision_images
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/ament_index/resource_index/parent_prefix_path/robovision_images
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/environment/path.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/environment/path.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/local_setup.bash
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/local_setup.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/local_setup.zsh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/local_setup.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/package.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/ament_index/resource_index/packages/robovision_images
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/cmake/robovision_imagesConfig.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/cmake/robovision_imagesConfig-version.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_images/share/robovision_images/package.xml

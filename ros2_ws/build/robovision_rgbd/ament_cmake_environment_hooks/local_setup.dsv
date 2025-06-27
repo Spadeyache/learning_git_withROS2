@@ -1,0 +1,3 @@
+source;share/robovision_rgbd/environment/ament_prefix_path.sh
+source;share/robovision_rgbd/environment/path.sh
+source;share/robovision_rgbd/environment/pythonpath.sh

@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.000485] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.000600] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.000623] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.000645] (cv_bridge) JobQueued: {'identifier': 'cv_bridge', 'dependencies': OrderedDict()}
+[0.000668] (cv_bridge) JobStarted: {'identifier': 'cv_bridge'}
+[0.005357] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'cmake'}
+[0.007267] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'build'}
+[0.007312] (cv_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/cv_bridge', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/ros2_ws/build/cv_bridge', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/image_geometry/lib:/home/ubuntu/ros2_ws/install/cv_bridge/lib:/home/ubuntu/robovision_ros2_ws/install/robovision_interfaces/lib:/home/ubuntu/robovision_ros2_ws/install/image_geometry/lib:/home/ubuntu/robovision_ros2_ws/install/cv_bridge/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws/src/vision_opencv', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install:/home/ubuntu/robovision_ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', 'NAME': 'Spade-MSI', 'WSL_INTEROP': '/run/WSL/93171_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.2.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Users/magic/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/magic/AppData/Roaming/Programs/Zero Install:/mnt/c/Users/magic/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/magic/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/magic/AppData/Local/GitHubDesktop/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/vision_opencv:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/ros2_ws/install/image_geometry:/home/ubuntu/ros2_ws/install/cv_bridge:/home/ubuntu/robovision_ros2_ws/install/vision_opencv:/home/ubuntu/robovision_ros2_ws/install/robovision_interfaces:/home/ubuntu/robovision_ros2_ws/install/opencv_tests:/home/ubuntu/robovision_ros2_ws/install/image_geometry:/home/ubuntu/robovision_ros2_ws/install/cv_bridge:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/ros2_ws/build/cv_bridge', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/install/opencv_tests/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/image_geometry/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages:/home/ubuntu/robovision_ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages:/home/ubuntu/robovision_ros2_ws/install/opencv_tests/lib/python3.12/site-packages:/home/ubuntu/robovision_ros2_ws/install/image_geometry/lib/python3.12/site-packages:/home/ubuntu/robovision_ros2_ws/install/cv_bridge/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/vision_opencv:/home/ubuntu/ros2_ws/install/image_geometry:/home/ubuntu/ros2_ws/install/cv_bridge:/home/ubuntu/robovision_ros2_ws/install/vision_opencv:/home/ubuntu/robovision_ros2_ws/install/robovision_interfaces:/home/ubuntu/robovision_ros2_ws/install/image_geometry:/home/ubuntu/robovision_ros2_ws/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/robovision_ros2_ws/install/opencv_tests:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.027835] (cv_bridge) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.049030] (cv_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.099822] (-) TimerEvent: {}
+[0.200141] (-) TimerEvent: {}
+[0.262077] (cv_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/include/python3.12 (found version "3.12.3") found components: Development NumPy Interpreter Development.Module Development.Embed \n'}
+[0.268507] (cv_bridge) StdoutLine: {'line': b'-- Found rcpputils: 2.11.2 (/opt/ros/jazzy/share/rcpputils/cmake)\n'}
+[0.300213] (-) TimerEvent: {}
+[0.369532] (cv_bridge) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.378643] (cv_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.384105] (cv_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.391107] (cv_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.397821] (cv_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400343] (-) TimerEvent: {}
+[0.500578] (-) TimerEvent: {}
+[0.510045] (cv_bridge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.570218] (cv_bridge) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.600671] (-) TimerEvent: {}
+[0.700861] (-) TimerEvent: {}
+[0.801082] (-) TimerEvent: {}
+[0.901406] (-) TimerEvent: {}
+[1.001580] (-) TimerEvent: {}
+[1.101831] (-) TimerEvent: {}
+[1.202080] (-) TimerEvent: {}
+[1.271809] (cv_bridge) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.291212] (cv_bridge) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.295498] (cv_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/cv_bridge\n'}
+[1.302165] (-) TimerEvent: {}
+[1.321690] (cv_bridge) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[1.323107] (cv_bridge) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[1.325986] (cv_bridge) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o\x1b[0m\n'}
+[1.326117] (cv_bridge) StdoutLine: {'line': b'[ 18%] Built target ament_cmake_python_copy_cv_bridge\n'}
+[1.326158] (cv_bridge) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o\x1b[0m\n'}
+[1.402494] (-) TimerEvent: {}
+[1.467593] (cv_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[1.478356] (cv_bridge) StdoutLine: {'line': b'writing cv_bridge.egg-info/PKG-INFO\n'}
+[1.478640] (cv_bridge) StdoutLine: {'line': b'writing dependency_links to cv_bridge.egg-info/dependency_links.txt\n'}
+[1.478801] (cv_bridge) StdoutLine: {'line': b'writing top-level names to cv_bridge.egg-info/top_level.txt\n'}
+[1.502710] (-) TimerEvent: {}
+[1.507399] (cv_bridge) StdoutLine: {'line': b"reading manifest file 'cv_bridge.egg-info/SOURCES.txt'\n"}
+[1.508163] (cv_bridge) StdoutLine: {'line': b"writing manifest file 'cv_bridge.egg-info/SOURCES.txt'\n"}
+[1.530927] (cv_bridge) StdoutLine: {'line': b'[ 25%] Built target ament_cmake_python_build_cv_bridge_egg\n'}
+[1.602821] (-) TimerEvent: {}
+[1.703032] (-) TimerEvent: {}
+[1.747832] (cv_bridge) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[1.771763] (cv_bridge) StdoutLine: {'line': b'[ 31%] Built target gtest_main\n'}
+[1.803470] (-) TimerEvent: {}
+[1.903885] (-) TimerEvent: {}
+[2.004213] (-) TimerEvent: {}
+[2.104534] (-) TimerEvent: {}
+[2.204870] (-) TimerEvent: {}
+[2.305103] (-) TimerEvent: {}
+[2.405395] (-) TimerEvent: {}
+[2.505739] (-) TimerEvent: {}
+[2.606044] (-) TimerEvent: {}
+[2.706320] (-) TimerEvent: {}
+[2.806541] (-) TimerEvent: {}
+[2.906803] (-) TimerEvent: {}
+[3.007021] (-) TimerEvent: {}
+[3.107419] (-) TimerEvent: {}
+[3.207712] (-) TimerEvent: {}
+[3.307997] (-) TimerEvent: {}
+[3.408239] (-) TimerEvent: {}
+[3.508449] (-) TimerEvent: {}
+[3.544480] (cv_bridge) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[3.582960] (cv_bridge) StdoutLine: {'line': b'[ 37%] Built target gtest\n'}
+[3.608701] (-) TimerEvent: {}
+[3.709003] (-) TimerEvent: {}
+[3.759334] (cv_bridge) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libcv_bridge.so\x1b[0m\n'}
+[3.809077] (-) TimerEvent: {}
+[3.895763] (cv_bridge) StdoutLine: {'line': b'[ 43%] Built target cv_bridge\n'}
+[3.909176] (-) TimerEvent: {}
+[3.917546] (cv_bridge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o\x1b[0m\n'}
+[3.918267] (cv_bridge) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o\x1b[0m\n'}
+[3.918462] (cv_bridge) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o\x1b[0m\n'}
+[3.918571] (cv_bridge) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o\x1b[0m\n'}
+[3.918774] (cv_bridge) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o\x1b[0m\n'}
+[3.920581] (cv_bridge) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o\x1b[0m\n'}
+[3.921631] (cv_bridge) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o\x1b[0m\n'}
+[4.009373] (-) TimerEvent: {}
+[4.109708] (-) TimerEvent: {}
+[4.209983] (-) TimerEvent: {}
+[4.310238] (-) TimerEvent: {}
+[4.410536] (-) TimerEvent: {}
+[4.510779] (-) TimerEvent: {}
+[4.611100] (-) TimerEvent: {}
+[4.711507] (-) TimerEvent: {}
+[4.811890] (-) TimerEvent: {}
+[4.912277] (-) TimerEvent: {}
+[5.012637] (-) TimerEvent: {}
+[5.112912] (-) TimerEvent: {}
+[5.213328] (-) TimerEvent: {}
+[5.313737] (-) TimerEvent: {}
+[5.414123] (-) TimerEvent: {}
+[5.514356] (-) TimerEvent: {}
+[5.614711] (-) TimerEvent: {}
+[5.715022] (-) TimerEvent: {}
+[5.815326] (-) TimerEvent: {}
+[5.915583] (-) TimerEvent: {}
+[6.015843] (-) TimerEvent: {}
+[6.116168] (-) TimerEvent: {}
+[6.210953] (cv_bridge) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable cv_bridge-utest\x1b[0m\n'}
+[6.216284] (-) TimerEvent: {}
+[6.316617] (-) TimerEvent: {}
+[6.416911] (-) TimerEvent: {}
+[6.517180] (-) TimerEvent: {}
+[6.548041] (cv_bridge) StdoutLine: {'line': b'[ 93%] Built target cv_bridge-utest\n'}
+[6.617319] (-) TimerEvent: {}
+[6.717543] (-) TimerEvent: {}
+[6.817847] (-) TimerEvent: {}
+[6.918112] (-) TimerEvent: {}
+[7.018369] (-) TimerEvent: {}
+[7.118644] (-) TimerEvent: {}
+[7.218886] (-) TimerEvent: {}
+[7.277056] (cv_bridge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared module boost/cv_bridge_boost.so\x1b[0m\n'}
+[7.318973] (-) TimerEvent: {}
+[7.411211] (cv_bridge) StdoutLine: {'line': b'[100%] Built target cv_bridge_boost\n'}
+[7.418872] (cv_bridge) CommandEnded: {'returncode': 0}
+[7.419120] (-) TimerEvent: {}
+[7.419415] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'install'}
+[7.426024] (cv_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/cv_bridge'], 'cwd': '/home/ubuntu/ros2_ws/build/cv_bridge', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/image_geometry/lib:/home/ubuntu/ros2_ws/install/cv_bridge/lib:/home/ubuntu/robovision_ros2_ws/install/robovision_interfaces/lib:/home/ubuntu/robovision_ros2_ws/install/image_geometry/lib:/home/ubuntu/robovision_ros2_ws/install/cv_bridge/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws/src/vision_opencv', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install:/home/ubuntu/robovision_ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', 'NAME': 'Spade-MSI', 'WSL_INTEROP': '/run/WSL/93171_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.2.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Users/magic/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/magic/AppData/Roaming/Programs/Zero Install:/mnt/c/Users/magic/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/magic/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/magic/AppData/Local/GitHubDesktop/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/vision_opencv:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/ros2_ws/install/image_geometry:/home/ubuntu/ros2_ws/install/cv_bridge:/home/ubuntu/robovision_ros2_ws/install/vision_opencv:/home/ubuntu/robovision_ros2_ws/install/robovision_interfaces:/home/ubuntu/robovision_ros2_ws/install/opencv_tests:/home/ubuntu/robovision_ros2_ws/install/image_geometry:/home/ubuntu/robovision_ros2_ws/install/cv_bridge:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/ros2_ws/build/cv_bridge', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/install/opencv_tests/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/image_geometry/lib/python3.12/site-packages:/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages:/home/ubuntu/robovision_ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages:/home/ubuntu/robovision_ros2_ws/install/opencv_tests/lib/python3.12/site-packages:/home/ubuntu/robovision_ros2_ws/install/image_geometry/lib/python3.12/site-packages:/home/ubuntu/robovision_ros2_ws/install/cv_bridge/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/vision_opencv:/home/ubuntu/ros2_ws/install/image_geometry:/home/ubuntu/ros2_ws/install/cv_bridge:/home/ubuntu/robovision_ros2_ws/install/vision_opencv:/home/ubuntu/robovision_ros2_ws/install/robovision_interfaces:/home/ubuntu/robovision_ros2_ws/install/image_geometry:/home/ubuntu/robovision_ros2_ws/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/ros2_ws/install/opencv_tests:/home/ubuntu/robovision_ros2_ws/install/opencv_tests:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[7.431033] (cv_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.431123] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh\n'}
+[7.431160] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv\n'}
+[7.431190] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-3.2.1-py3.12.egg-info\n'}
+[7.431267] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-3.2.1-py3.12.egg-info/top_level.txt\n'}
+[7.431389] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-3.2.1-py3.12.egg-info/dependency_links.txt\n'}
+[7.431480] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-3.2.1-py3.12.egg-info/PKG-INFO\n'}
+[7.431552] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-3.2.1-py3.12.egg-info/SOURCES.txt\n'}
+[7.431679] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge\n'}
+[7.431795] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/core.py\n'}
+[7.431915] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/__init__.py\n'}
+[7.459294] (cv_bridge) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge'...\n"}
+[7.459411] (cv_bridge) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/__init__.py'...\n"}
+[7.459447] (cv_bridge) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/boost'...\n"}
+[7.459477] (cv_bridge) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/core.py'...\n"}
+[7.464101] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/libcv_bridge.so\n'}
+[7.464904] (cv_bridge) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_ws/install/cv_bridge/lib/libcv_bridge.so" to ""\n'}
+[7.464951] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h\n'}
+[7.465486] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/boost/cv_bridge_boost.so\n'}
+[7.466227] (cv_bridge) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/boost/cv_bridge_boost.so" to ""\n'}
+[7.466404] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/include/cv_bridge\n'}
+[7.466495] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge\n'}
+[7.466542] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h\n'}
+[7.466597] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h\n'}
+[7.466701] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/lib/libcv_bridge.so\n'}
+[7.466826] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge\n'}
+[7.466906] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge\n'}
+[7.466996] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh\n'}
+[7.467044] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv\n'}
+[7.467074] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/path.sh\n'}
+[7.467211] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv\n'}
+[7.467255] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.bash\n'}
+[7.467290] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.sh\n'}
+[7.467381] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh\n'}
+[7.467466] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv\n'}
+[7.467539] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/package.dsv\n'}
+[7.467625] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge\n'}
+[7.467758] (cv_bridge) StdoutLine: {'line': b'-- Old export file "/home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake" will be replaced.  Removing files [/home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake].\n'}
+[7.467839] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake\n'}
+[7.467925] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake\n'}
+[7.468003] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake\n'}
+[7.468038] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.468085] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.468171] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake\n'}
+[7.468257] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake\n'}
+[7.468380] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/package.xml\n'}
+[7.469205] (cv_bridge) CommandEnded: {'returncode': 0}
+[7.480581] (cv_bridge) JobEnded: {'identifier': 'cv_bridge', 'rc': 0}
+[7.481309] (-) EventReactorShutdown: {}

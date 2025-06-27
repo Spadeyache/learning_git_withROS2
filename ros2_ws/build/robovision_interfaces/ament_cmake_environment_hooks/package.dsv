@@ -1,0 +1,4 @@
+source;share/robovision_interfaces/local_setup.bash
+source;share/robovision_interfaces/local_setup.dsv
+source;share/robovision_interfaces/local_setup.sh
+source;share/robovision_interfaces/local_setup.zsh

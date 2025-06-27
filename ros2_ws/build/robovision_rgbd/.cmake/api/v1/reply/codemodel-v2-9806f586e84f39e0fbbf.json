@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-79555586bed97cb4cebc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robovision_rgbd",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robovision_rgbd_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robovision_rgbd_egg-0704b9454d2870682d47.json",
+					"name" : "ament_cmake_python_build_robovision_rgbd_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robovision_rgbd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robovision_rgbd-33df924944ff1ad7b2f5.json",
+					"name" : "ament_cmake_python_copy_robovision_rgbd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rgbd_reader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rgbd_reader-0944b5e4ab9875d62b59.json",
+					"name" : "rgbd_reader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rgbd_reader_faceRecog2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rgbd_reader_faceRecog2-c96fe28dcaa16979e6a1.json",
+					"name" : "rgbd_reader_faceRecog2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rgbd_reader_faceRecog_tracking::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rgbd_reader_faceRecog_tracking-d278c695fbfafa438e3b.json",
+					"name" : "rgbd_reader_faceRecog_tracking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rgbd_reader_faceRecog_tracking2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rgbd_reader_faceRecog_tracking2-8c7eb1f2e3f1cb645b57.json",
+					"name" : "rgbd_reader_faceRecog_tracking2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robovision_rgbd_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robovision_rgbd_uninstall-14315b69b9edecbf31ce.json",
+					"name" : "robovision_rgbd_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4800113b9799d9e9b97a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/ros2_ws/build/robovision_rgbd",
+		"source" : "/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,209 @@
+[0.017s] Invoking command in '/home/ubuntu/ros2_ws/build/robovision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_interfaces -- -j16 -l16
+[0.090s] [  1%] Built target robovision_interfaces__rosidl_generator_type_description
+[0.109s] [  3%] Built target robovision_interfaces__cpp
+[0.110s] [  3%] Built target ament_cmake_python_copy_robovision_interfaces
+[0.112s] [ 24%] Built target robovision_interfaces__rosidl_generator_c
+[0.132s] [ 33%] Built target robovision_interfaces__rosidl_typesupport_introspection_cpp
+[0.132s] [ 51%] Built target robovision_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.132s] [ 51%] Built target robovision_interfaces__rosidl_typesupport_introspection_c
+[0.133s] [ 61%] Built target robovision_interfaces__rosidl_typesupport_fastrtps_c
+[0.135s] [ 70%] Built target robovision_interfaces__rosidl_typesupport_cpp
+[0.137s] [ 79%] Built target robovision_interfaces__rosidl_typesupport_c
+[0.151s] [ 79%] Built target robovision_interfaces
+[0.165s] [ 81%] Built target robovision_interfaces__py
+[0.183s] [ 88%] Built target robovision_interfaces__rosidl_generator_py
+[0.202s] [ 92%] Built target robovision_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.203s] [ 96%] Built target robovision_interfaces_s__rosidl_typesupport_c
+[0.204s] [100%] Built target robovision_interfaces_s__rosidl_typesupport_introspection_c
+[0.249s] running egg_info
+[0.259s] writing robovision_interfaces.egg-info/PKG-INFO
+[0.259s] writing dependency_links to robovision_interfaces.egg-info/dependency_links.txt
+[0.259s] writing top-level names to robovision_interfaces.egg-info/top_level.txt
+[0.286s] reading manifest file 'robovision_interfaces.egg-info/SOURCES.txt'
+[0.287s] writing manifest file 'robovision_interfaces.egg-info/SOURCES.txt'
+[0.308s] [100%] Built target ament_cmake_python_build_robovision_interfaces_egg
+[0.321s] Invoked command in '/home/ubuntu/ros2_ws/build/robovision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_interfaces -- -j16 -l16
+[0.322s] Invoking command in '/home/ubuntu/ros2_ws/build/robovision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_interfaces
+[0.328s] -- Install configuration: ""
+[0.328s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/ament_index/resource_index/rosidl_interfaces/robovision_interfaces
+[0.328s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/msg/ObjectCentroid.json
+[0.328s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/msg/ObjectCentroids.json
+[0.328s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/srv/GetPointCenter.json
+[0.328s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces
+[0.328s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg
+[0.329s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/object_centroid.h
+[0.329s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.329s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/object_centroids.h
+[0.329s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail
+[0.329s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroids__type_support.h
+[0.329s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroids__struct.h
+[0.329s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroid__type_support.h
+[0.329s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroid__functions.h
+[0.329s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroids__description.c
+[0.329s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroid__functions.c
+[0.330s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroids__functions.c
+[0.330s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroid__type_support.c
+[0.330s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroid__struct.h
+[0.330s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroids__type_support.c
+[0.330s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroid__description.c
+[0.330s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroids__functions.h
+[0.330s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv
+[0.330s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/get_point_center.h
+[0.331s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail
+[0.331s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail/get_point_center__type_support.c
+[0.331s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail/get_point_center__functions.c
+[0.331s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail/get_point_center__struct.h
+[0.331s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail/get_point_center__description.c
+[0.331s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail/get_point_center__functions.h
+[0.331s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail/get_point_center__type_support.h
+[0.331s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/environment/library_path.sh
+[0.331s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/environment/library_path.dsv
+[0.331s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/librobovision_interfaces__rosidl_generator_c.so
+[0.331s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces
+[0.331s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg
+[0.331s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.332s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail
+[0.332s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroid__rosidl_typesupport_fastrtps_c.h
+[0.332s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroids__rosidl_typesupport_fastrtps_c.h
+[0.332s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv
+[0.332s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail
+[0.332s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail/get_point_center__rosidl_typesupport_fastrtps_c.h
+[0.332s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/librobovision_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.332s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces
+[0.332s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg
+[0.333s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.333s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail
+[0.333s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroids__rosidl_typesupport_introspection_c.h
+[0.333s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroid__rosidl_typesupport_introspection_c.h
+[0.333s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroid__type_support.c
+[0.334s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroids__type_support.c
+[0.334s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv
+[0.334s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail
+[0.334s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail/get_point_center__rosidl_typesupport_introspection_c.h
+[0.334s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail/get_point_center__type_support.c
+[0.334s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/librobovision_interfaces__rosidl_typesupport_introspection_c.so
+[0.335s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/librobovision_interfaces__rosidl_typesupport_c.so
+[0.335s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces
+[0.335s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg
+[0.335s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/object_centroid.hpp
+[0.335s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/object_centroids.hpp
+[0.335s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.335s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail
+[0.335s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroids__builder.hpp
+[0.335s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroid__traits.hpp
+[0.336s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroid__struct.hpp
+[0.336s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroids__type_support.hpp
+[0.336s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroids__traits.hpp
+[0.336s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroids__struct.hpp
+[0.336s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroid__builder.hpp
+[0.336s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroid__type_support.hpp
+[0.336s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv
+[0.336s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/get_point_center.hpp
+[0.336s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail
+[0.337s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail/get_point_center__struct.hpp
+[0.337s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail/get_point_center__type_support.hpp
+[0.337s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail/get_point_center__builder.hpp
+[0.337s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail/get_point_center__traits.hpp
+[0.337s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces
+[0.337s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg
+[0.337s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.337s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail
+[0.337s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroids__rosidl_typesupport_fastrtps_cpp.hpp
+[0.337s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroid__rosidl_typesupport_fastrtps_cpp.hpp
+[0.338s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/dds_fastrtps
+[0.338s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv
+[0.338s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail
+[0.338s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail/get_point_center__rosidl_typesupport_fastrtps_cpp.hpp
+[0.338s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail/dds_fastrtps
+[0.338s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/librobovision_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.338s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces
+[0.338s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg
+[0.339s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail
+[0.339s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroid__type_support.cpp
+[0.339s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroids__rosidl_typesupport_introspection_cpp.hpp
+[0.339s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroid__rosidl_typesupport_introspection_cpp.hpp
+[0.339s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/msg/detail/object_centroids__type_support.cpp
+[0.339s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv
+[0.339s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail
+[0.339s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail/get_point_center__type_support.cpp
+[0.339s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/include/robovision_interfaces/robovision_interfaces/srv/detail/get_point_center__rosidl_typesupport_introspection_cpp.hpp
+[0.340s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/librobovision_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.341s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/librobovision_interfaces__rosidl_typesupport_cpp.so
+[0.341s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/environment/pythonpath.sh
+[0.341s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/environment/pythonpath.dsv
+[0.341s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces-0.0.0-py3.12.egg-info
+[0.341s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[0.341s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.341s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[0.341s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.342s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces
+[0.342s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/msg
+[0.342s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/msg/_object_centroids_s.c
+[0.342s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/msg/_object_centroid_s.c
+[0.342s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/msg/_object_centroids.py
+[0.342s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/msg/_object_centroid.py
+[0.342s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/msg/__init__.py
+[0.342s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/robovision_interfaces_s__rosidl_typesupport_introspection_c.so
+[0.342s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/srv
+[0.342s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/srv/_get_point_center_s.c
+[0.342s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/srv/_get_point_center.py
+[0.343s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/srv/__init__.py
+[0.343s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/robovision_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[0.343s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/_robovision_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.343s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/robovision_interfaces_s__rosidl_typesupport_c.so
+[0.343s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/_robovision_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.343s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/_robovision_interfaces_s.ep.rosidl_typesupport_c.c
+[0.343s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/__init__.py
+[0.367s] Listing '/home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces'...
+[0.367s] Listing '/home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/msg'...
+[0.368s] Listing '/home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/srv'...
+[0.371s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/robovision_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[0.372s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/robovision_interfaces_s__rosidl_typesupport_introspection_c.so
+[0.373s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/python3.12/site-packages/robovision_interfaces/robovision_interfaces_s__rosidl_typesupport_c.so
+[0.373s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/lib/librobovision_interfaces__rosidl_generator_py.so
+[0.373s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/msg/ObjectCentroid.idl
+[0.373s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/msg/ObjectCentroids.idl
+[0.374s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/srv/GetPointCenter.idl
+[0.374s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/msg/ObjectCentroid.msg
+[0.374s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/msg/ObjectCentroids.msg
+[0.374s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/srv/GetPointCenter.srv
+[0.374s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/ament_index/resource_index/package_run_dependencies/robovision_interfaces
+[0.375s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/ament_index/resource_index/parent_prefix_path/robovision_interfaces
+[0.375s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/environment/ament_prefix_path.sh
+[0.375s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/environment/ament_prefix_path.dsv
+[0.375s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/environment/path.sh
+[0.375s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/environment/path.dsv
+[0.376s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/local_setup.bash
+[0.376s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/local_setup.sh
+[0.376s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/local_setup.zsh
+[0.376s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/local_setup.dsv
+[0.376s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/package.dsv
+[0.376s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/ament_index/resource_index/packages/robovision_interfaces
+[0.377s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/export_robovision_interfaces__rosidl_generator_cExport.cmake
+[0.377s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/export_robovision_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.377s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/export_robovision_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.377s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/export_robovision_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.377s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/robovision_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.377s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/robovision_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.377s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/robovision_interfaces__rosidl_typesupport_cExport.cmake
+[0.377s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/robovision_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.377s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/export_robovision_interfaces__rosidl_generator_cppExport.cmake
+[0.378s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/export_robovision_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.378s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/export_robovision_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.378s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/robovision_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.378s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/robovision_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.378s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/robovision_interfaces__rosidl_typesupport_cppExport.cmake
+[0.378s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/robovision_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.378s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/export_robovision_interfaces__rosidl_generator_pyExport.cmake
+[0.378s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/export_robovision_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.378s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.378s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.379s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.379s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.379s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.379s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.379s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.379s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/robovision_interfacesConfig.cmake
+[0.379s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/cmake/robovision_interfacesConfig-version.cmake
+[0.379s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_interfaces/share/robovision_interfaces/package.xml
+[0.393s] Invoked command in '/home/ubuntu/ros2_ws/build/robovision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_interfaces

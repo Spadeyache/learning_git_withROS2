@@ -1,0 +1,13 @@
+{
+  "package_name": "robovision_interfaces",
+  "output_dir": "/home/ubuntu/ros2_ws/build/robovision_interfaces/rosidl_generator_type_description/robovision_interfaces",
+  "idl_tuples": [
+    "/home/ubuntu/ros2_ws/build/robovision_interfaces/rosidl_adapter/robovision_interfaces:msg/ObjectCentroid.idl",
+    "/home/ubuntu/ros2_ws/build/robovision_interfaces/rosidl_adapter/robovision_interfaces:msg/ObjectCentroids.idl",
+    "/home/ubuntu/ros2_ws/build/robovision_interfaces/rosidl_adapter/robovision_interfaces:srv/GetPointCenter.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

@@ -1,0 +1,11 @@
+source;share/robovision_images/hook/cmake_prefix_path.ps1
+source;share/robovision_images/hook/cmake_prefix_path.dsv
+source;share/robovision_images/hook/cmake_prefix_path.sh
+source;share/robovision_images/hook/pythonpath.ps1
+source;share/robovision_images/hook/pythonpath.dsv
+source;share/robovision_images/hook/pythonpath.sh
+source;share/robovision_images/local_setup.bash
+source;share/robovision_images/local_setup.dsv
+source;share/robovision_images/local_setup.ps1
+source;share/robovision_images/local_setup.sh
+source;share/robovision_images/local_setup.zsh

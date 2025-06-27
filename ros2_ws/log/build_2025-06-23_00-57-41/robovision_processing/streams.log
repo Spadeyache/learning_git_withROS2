@@ -1,0 +1,27 @@
+[0.011s] Invoking command in '/home/ubuntu/ros2_ws/build/robovision_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_processing -- -j16 -l16
+[0.054s] [  0%] Built target ament_cmake_python_copy_robovision_processing
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/my_processing.dir/src/my_processing.cpp.o[0m
+[0.194s] running egg_info
+[0.203s] writing robovision_processing.egg-info/PKG-INFO
+[0.204s] writing dependency_links to robovision_processing.egg-info/dependency_links.txt
+[0.204s] writing top-level names to robovision_processing.egg-info/top_level.txt
+[0.236s] reading manifest file 'robovision_processing.egg-info/SOURCES.txt'
+[0.236s] writing manifest file 'robovision_processing.egg-info/SOURCES.txt'
+[0.261s] [ 50%] Built target ament_cmake_python_build_robovision_processing_egg
+[1.939s] [01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_2/src/my_processing.cpp:43:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_[m[K’ is not a type
+[1.939s]    43 |     cv::cvtColor([01;31m[Kimage_[m[K, image_gray, CV_BGR2GRAY);
+[1.939s]       |                  [01;31m[K^~~~~~[m[K
+[1.939s] [01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_2/src/my_processing.cpp:43:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_gray[m[K’ is not a type
+[1.940s]    43 |     cv::cvtColor(image_, [01;31m[Kimage_gray[m[K, CV_BGR2GRAY);
+[1.940s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[1.940s] [01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_2/src/my_processing.cpp:43:38:[m[K [01;31m[Kerror: [m[K‘[01m[KCV_BGR2GRAY[m[K’ is not a type
+[1.940s]    43 |     cv::cvtColor(image_, image_gray, [01;31m[KCV_BGR2GRAY[m[K);
+[1.940s]       |                                      [01;31m[K^~~~~~~~~~~[m[K
+[1.940s] [01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_2/src/my_processing.cpp:43:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KcvtColor[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.940s]    43 |     [01;31m[Kcv[m[K::cvtColor(image_, image_gray, CV_BGR2GRAY);
+[1.940s]       |     [01;31m[K^~[m[K
+[1.940s] [01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_2/src/my_processing.cpp:43:5:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[K::[m[K’
+[3.640s] gmake[2]: *** [CMakeFiles/my_processing.dir/build.make:76: CMakeFiles/my_processing.dir/src/my_processing.cpp.o] Error 1
+[3.640s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/my_processing.dir/all] Error 2
+[3.640s] gmake: *** [Makefile:146: all] Error 2
+[3.641s] Invoked command in '/home/ubuntu/ros2_ws/build/robovision_processing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_processing -- -j16 -l16

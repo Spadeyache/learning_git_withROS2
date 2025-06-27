@@ -1,0 +1,29 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found cv_bridge: 3.2.1 (/home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake)
+-- Configuring done (2.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ubuntu/ros2_ws/build/robovision_images
+[  8%] [32mBuilding CXX object CMakeFiles/my_scaled_subscriber.dir/src/my_scaled_subscriber.cpp.o[0m
+[ 25%] Built target my_publisher
+[ 58%] Built target my_scaled_camera_publisher
+[ 58%] Built target my_scaled_publisher
+[ 75%] Built target my_camera_publisher
+[ 75%] Built target ament_cmake_python_copy_robovision_images
+[ 83%] [32mBuilding CXX object CMakeFiles/my_subscriber.dir/src/my_subscriber.cpp.o[0m
+running egg_info
+writing robovision_images.egg-info/PKG-INFO
+writing dependency_links to robovision_images.egg-info/dependency_links.txt
+writing top-level names to robovision_images.egg-info/top_level.txt
+reading manifest file 'robovision_images.egg-info/SOURCES.txt'
+writing manifest file 'robovision_images.egg-info/SOURCES.txt'
+[ 83%] Built target ament_cmake_python_build_robovision_images_egg
+[ 91%] [32m[1mLinking CXX executable my_subscriber[0m
+[ 91%] Built target my_subscriber

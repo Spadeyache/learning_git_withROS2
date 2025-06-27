@@ -1,0 +1,41 @@
+[0.015s] Invoking command in '/home/ubuntu/ros2_ws/build/robovision_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_processing -- -j16 -l16
+[0.061s] [  0%] Built target ament_cmake_python_copy_robovision_processing
+[0.061s] [100%] Built target my_processing
+[0.208s] running egg_info
+[0.217s] writing robovision_processing.egg-info/PKG-INFO
+[0.218s] writing dependency_links to robovision_processing.egg-info/dependency_links.txt
+[0.218s] writing top-level names to robovision_processing.egg-info/top_level.txt
+[0.244s] reading manifest file 'robovision_processing.egg-info/SOURCES.txt'
+[0.245s] writing manifest file 'robovision_processing.egg-info/SOURCES.txt'
+[0.264s] [100%] Built target ament_cmake_python_build_robovision_processing_egg
+[0.271s] Invoked command in '/home/ubuntu/ros2_ws/build/robovision_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/robovision_processing -- -j16 -l16
+[0.280s] Invoking command in '/home/ubuntu/ros2_ws/build/robovision_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_processing
+[0.285s] -- Install configuration: ""
+[0.285s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/environment/pythonpath.sh
+[0.285s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/environment/pythonpath.dsv
+[0.285s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/lib/python3.12/site-packages/robovision_processing-0.0.0-py3.12.egg-info
+[0.285s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_processing/lib/python3.12/site-packages/robovision_processing-0.0.0-py3.12.egg-info/top_level.txt
+[0.286s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_processing/lib/python3.12/site-packages/robovision_processing-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.286s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_processing/lib/python3.12/site-packages/robovision_processing-0.0.0-py3.12.egg-info/PKG-INFO
+[0.286s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_processing/lib/python3.12/site-packages/robovision_processing-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.286s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/lib/python3.12/site-packages/robovision_processing
+[0.286s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/lib/python3.12/site-packages/robovision_processing/__init__.py
+[0.307s] Listing '/home/ubuntu/ros2_ws/install/robovision_processing/lib/python3.12/site-packages/robovision_processing'...
+[0.310s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/lib/robovision_processing/my_processing
+[0.311s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/lib/robovision_processing/my_processing.py
+[0.311s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/share/ament_index/resource_index/package_run_dependencies/robovision_processing
+[0.311s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/share/ament_index/resource_index/parent_prefix_path/robovision_processing
+[0.311s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/environment/ament_prefix_path.sh
+[0.311s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/environment/ament_prefix_path.dsv
+[0.311s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/environment/path.sh
+[0.311s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/environment/path.dsv
+[0.311s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/local_setup.bash
+[0.311s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/local_setup.sh
+[0.312s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/local_setup.zsh
+[0.312s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/local_setup.dsv
+[0.312s] -- Installing: /home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/package.dsv
+[0.312s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/share/ament_index/resource_index/packages/robovision_processing
+[0.312s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/cmake/robovision_processingConfig.cmake
+[0.312s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/cmake/robovision_processingConfig-version.cmake
+[0.312s] -- Up-to-date: /home/ubuntu/ros2_ws/install/robovision_processing/share/robovision_processing/package.xml
+[0.331s] Invoked command in '/home/ubuntu/ros2_ws/build/robovision_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/opencv_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/robovision_processing

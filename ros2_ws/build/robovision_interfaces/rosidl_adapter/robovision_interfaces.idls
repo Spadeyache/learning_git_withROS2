@@ -1,0 +1,3 @@
+/home/ubuntu/ros2_ws/build/robovision_interfaces/rosidl_adapter/robovision_interfaces:msg/ObjectCentroid.idl
+/home/ubuntu/ros2_ws/build/robovision_interfaces/rosidl_adapter/robovision_interfaces:msg/ObjectCentroids.idl
+/home/ubuntu/ros2_ws/build/robovision_interfaces/rosidl_adapter/robovision_interfaces:srv/GetPointCenter.idl

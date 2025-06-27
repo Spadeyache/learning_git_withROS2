@@ -1,0 +1,9 @@
+[  0%] Built target ament_cmake_python_copy_robovision_processing
+[ 50%] [32mBuilding CXX object CMakeFiles/my_processing.dir/src/my_processing.cpp.o[0m
+running egg_info
+writing robovision_processing.egg-info/PKG-INFO
+writing dependency_links to robovision_processing.egg-info/dependency_links.txt
+writing top-level names to robovision_processing.egg-info/top_level.txt
+reading manifest file 'robovision_processing.egg-info/SOURCES.txt'
+writing manifest file 'robovision_processing.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_robovision_processing_egg

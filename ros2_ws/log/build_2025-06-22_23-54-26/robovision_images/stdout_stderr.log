@@ -1,0 +1,22 @@
+[ 16%] Built target my_publisher
+[ 16%] Built target ament_cmake_python_copy_robovision_images
+[ 33%] Built target my_camera_publisher
+[ 50%] Built target my_scaled_camera_publisher
+[ 58%] [32mBuilding CXX object CMakeFiles/my_scaled_subscriber.dir/src/my_scaled_subscriber.cpp.o[0m
+[ 75%] Built target my_scaled_publisher
+[ 91%] Built target my_subscriber
+running egg_info
+writing robovision_images.egg-info/PKG-INFO
+writing dependency_links to robovision_images.egg-info/dependency_links.txt
+writing top-level names to robovision_images.egg-info/top_level.txt
+reading manifest file 'robovision_images.egg-info/SOURCES.txt'
+writing manifest file 'robovision_images.egg-info/SOURCES.txt'
+[ 91%] Built target ament_cmake_python_build_robovision_images_egg
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1/src/my_scaled_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriberNode::[01;32m[Kcallback_scaled_image[m[K(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/robovision_ros2/robovision_1/src/my_scaled_subscriber.cpp:50:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kscaled_image[m[K’ was not declared in this scope; did you mean ‘[01m[Kscaled_image_[m[K’?
+   50 |         cv::resize(image_, [01;31m[Kscaled_image[m[K, cv::Size(), 0.5, 0.5, CV_INTER_AREA);
+      |                            [01;31m[K^~~~~~~~~~~~[m[K
+      |                            [32m[Kscaled_image_[m[K
+gmake[2]: *** [CMakeFiles/my_scaled_subscriber.dir/build.make:76: CMakeFiles/my_scaled_subscriber.dir/src/my_scaled_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:280: CMakeFiles/my_scaled_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

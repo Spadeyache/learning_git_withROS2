@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robovision_interfaces/srv/GetPointCenter.srv
+// generated code does not contain a copyright notice
+
+#include "robovision_interfaces/msg/ObjectCentroid.idl"
+
+module robovision_interfaces {
+  module srv {
+    struct GetPointCenter_Request {
+      int64 x;
+
+      int64 y;
+    };
+    @verbatim (language="comment", text=
+      "Note that if the message is defined in the same package," "\n"
+      "the package name does not appear in the service or message definition." "\n"
+      "If the message is defined elsewhere, we have to specify it, e.g." "\n"
+      "robovision_interfaces/msg/ObjectCentroid point")
+    struct GetPointCenter_Response {
+      robovision_interfaces::msg::ObjectCentroid point;
+    };
+  };
+};
